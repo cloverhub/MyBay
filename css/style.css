@@ -111,6 +111,15 @@ map {
 	margin-left: 10px;
 }
 
+/* fluid horizontal-scrollable row for photos */
+.row-fluid{
+	white-space: nowrap;
+}
+
+.row-fluid .col-lg-3{
+	display: inline-block;
+}
+
 /* Google Maps infowindow styling referenced from app.js */
 
 .info-window {
