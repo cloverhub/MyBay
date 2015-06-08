@@ -10,7 +10,6 @@ h5 {
 	font-weight: 200 !important;
 	margin-top: 8px !important;
 	margin-bottom: 8px !important;
-	margin-left: 10px !important;
 }
 
 #filters-panel {
@@ -109,6 +108,7 @@ map {
 .location-item {
 	list-style: none;
 	cursor: pointer;
+	margin-left: 10px;
 }
 
 /* Google Maps infowindow styling referenced from app.js */
