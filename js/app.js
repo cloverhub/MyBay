@@ -111,7 +111,7 @@ var ViewModel = function() {
 				returnLocations = tempLocations();
 			}
 
-			// apply ajax text filter
+			// apply the text filter
 			else {
 				returnLocations = ko.utils.arrayFilter(tempLocations(), function(location) {
 				return location.name().toLowerCase().indexOf(tempSearchFilter) !== -1;
@@ -268,7 +268,9 @@ var ViewModel = function() {
 // create the Google Map
 var Map = {
 	map: {},
-	infoWindow: new google.maps.InfoWindow(),
+	infoWindow: new google.maps.InfoWindow({
+			maxWidth: 200
+		}),
 	options: {
 		center: {lat: 37.8, lng: -122.3},
 		zoom: 10
