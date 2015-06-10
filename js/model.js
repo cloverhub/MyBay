@@ -4,7 +4,7 @@ var locations = [
 		"lat": 37.771250,
 		"lng": -122.468597,
 		"review": "test",
-		"wiki": "0",
+		"wiki": "1",
 		"category": ["museum"]
 	},
 	{
@@ -44,7 +44,7 @@ var locations = [
 		"lat": 37.822865,
 		"lng": -122.370189,
 		"review": "test",
-		"wiki": "0",
+		"wiki": "1",
 		"category": ["explore"]
 	},
 	{
@@ -76,7 +76,7 @@ var locations = [
 		"lat": 37.769725,
 		"lng": -122.4661,
 		"review": "Testing Testing 2",
-		"wiki": "0",
+		"wiki": "1",
 		"category": ["museum"]
 	},
 	{
@@ -100,7 +100,7 @@ var locations = [
 		"lat": 37.846249,
 		"lng": -122.252135,
 		"review": "Just realized I never reviewed Zachary's. What can I say? This is my favorite pizza place in the world...</p><p>Please bring Zachary's to San Francisco!!",
-		"wiki": "1",
+		"wiki": "0",
 		"category": ["grub"]
 	},
 	{
@@ -116,7 +116,7 @@ var locations = [
 		"lat": 37.770203,
 		"lng": -122.477412,
 		"review": "Testing Testing 3",
-		"wiki": "1",
+		"wiki": "0",
 		"category": ["workout"]
 	},
 	{
@@ -124,7 +124,7 @@ var locations = [
 		"lat": 37.869503,
 		"lng": -122.300330,
 		"review": "Testing Testing 3",
-		"wiki": "1",
+		"wiki": "0",
 		"category": ["gear"]
 	},
 	{
@@ -140,7 +140,7 @@ var locations = [
 		"lat": 37.826951,
 		"lng": -122.210282,
 		"review": "Testing Testing 3",
-		"wiki": "1",
+		"wiki": "0",
 		"category": ["grub"]
 	},
 	{
@@ -156,7 +156,7 @@ var locations = [
 		"lat": 37.779204,
 		"lng": -122.397990,
 		"review": "The Utah serves two purposes very well:<br/><br/>(1) It's a perfect place to sit at the bar and grab some beers and burgers if you're in the area or heading down 4th St to the ballpark.<br/><br/>(2) It's a great music venue on the weekends to just chill with good music and beer. In an age of $100+ concert tickets, it's nice to have a place to pay a modest cover charge and get your fill of good loud music.<br/><br/>The Utah is full of character from floor to ceiling...this place even screams character from across the street.<br/><br/>Everything is very close quarters throughout, from the tiny stage to the cramped seating area (think being aboard a submarine). Iwish there was a bit more room, but it is what it is.",
-		"wiki": "1",
+		"wiki": "0",
 		"category": ["grub", "fun"]
 	},
 	{
@@ -172,7 +172,7 @@ var locations = [
 		"lat": 37.799004,
 		"lng": -122.419151,
 		"review": "I grew up 1/2 block away from Swensen's. My dad always got me a hot fudge sundae on Sunday afternoons.<br/><br/>Nowadays, we still head up the hill to Swensen's to get ice cream cones all the time. It's been a LONG time since I had the hot fudge sundae, but I got one the other day and was happy to see it was EXACTLY the same as it was when I was a lad (except my dad always got me the small size--I didn't even know they had huge ones too). It's always great when a classic doesn't try to change.",
-		"wiki": "1",
+		"wiki": "0",
 		"category": ["grub"]
 	},
 	{
@@ -244,7 +244,7 @@ var locations = [
 		"lat": 37.759939,
 		"lng": -122.427026,
 		"review": "Testing Testing 3",
-		"wiki": "1",
+		"wiki": "0",
 		"category": ["fun"]
 	},
 	{
