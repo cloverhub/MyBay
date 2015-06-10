@@ -1,11 +1,16 @@
-* {
+body {
 	font-family: Tahoma, Geneva, sans-serif !important;
 }
 
-body {
+h1,
+h2,
+h3,
+h4 {
+	font-family: Tahoma, Geneva, sans-serif !important;
 }
 
 h5 {
+	font-family: Tahoma, Geneva, sans-serif !important;
 	font-size: 16px !important;
 	font-weight: 200 !important;
 	margin-top: 8px !important;
@@ -128,9 +133,11 @@ map {
 .window-title {
 	font-size: 22px;
 	font-weight: 500;
+	font-family: Tahoma, Geneva, sans-serif;
 }
 
 .window-description {
 	font-size: 12px;
 	font-weight: 200;
+	font-family: Tahoma, Geneva, sans-serif;
 }

@@ -228,11 +228,11 @@ var ViewModel = function() {
 			this.selectedLocationInvokesWikipedia = ko.computed(function () {
 				return self.selectedLocation() != null && (self.selectedLocation().wiki() === '1');
 			}, this);
-			var wikiElem = ko.observable();
+			var wikiElem = ko.observable(); */
 			var wikiRequestTimeout = setTimeout(function() {
-				wikiElem.text("Wikipedia fail");
-			}, 3000); // error after 3 seconds
-			*/
+				self.connectionError(true);
+			}, 6000); // set error status after 6 seconds
+			
 			$.ajax({
 				url: 'http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=' + location.name() + '&limit=1&namespace=0&format=json',
 				dataType: "jsonp"
@@ -247,6 +247,7 @@ var ViewModel = function() {
 				location.wikiInfo = ko.observable(articleSnippet);
 				location.wikiUrl = ko.observable(wikipediaUrl);
 				location.wikiSummary = ko.observable(articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a>');
+				clearTimeout(wikiRequestTimeout); // clear the timeout
 			})
 		}
 		// if the location has data

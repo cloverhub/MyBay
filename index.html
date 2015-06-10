@@ -33,7 +33,11 @@
 			<div class="row">
 				<section class="col-xs-12" id="info-container">
 					<div data-bind="visible: connectionError">
-						<h1 class="error">Error!</h1>
+						<div class="alert alert-danger" role="alert">
+							<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+							<span class="sr-only">Error:</span>
+							There was a problem. Please try again.
+						</div>
 					</div>
 					<div class="selected-location" data-bind="with: selectedLocation()">
 						<div class="location-details-container">
