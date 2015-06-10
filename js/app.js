@@ -222,13 +222,6 @@ var ViewModel = function() {
 			});
 
 			//***************************************************************** Call Wikipedia API
-			//Check if selected location should fire a Wikipedia request
-			/*
-			TODO: add wiki filter
-			this.selectedLocationInvokesWikipedia = ko.computed(function () {
-				return self.selectedLocation() != null && (self.selectedLocation().wiki() === '1');
-			}, this);
-			var wikiElem = ko.observable(); */
 			var wikiRequestTimeout = setTimeout(function() {
 				self.connectionError(true);
 			}, 6000); // set error status after 6 seconds
@@ -243,10 +236,12 @@ var ViewModel = function() {
 				var articleTitle = articleList[1];
 				var articleSnippet = articleList[2];
 				var wikipediaUrl = 'http://en.wikipedia.org/wiki/' + articleTitle;
-				// console.log(articleSnippet);
 				location.wikiInfo = ko.observable(articleSnippet);
 				location.wikiUrl = ko.observable(wikipediaUrl);
-				location.wikiSummary = ko.observable(articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a>');
+				// check to see if should fire request to wikipedia, if yes then do it
+				if (location.wiki() === '1') {
+					location.wikiSummary = ko.observable(articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a>');
+				}
 				clearTimeout(wikiRequestTimeout); // clear the timeout
 			})
 		}
