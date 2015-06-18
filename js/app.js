@@ -28,6 +28,14 @@ var Location = function(data, parent) {
 	this.marker = marker;
 };
 
+// alphabetize location names in the JSON data A-Z
+function compare(el1, el2, index) {
+	return el1[index] == el2[index] ? 0 : (el1[index] < el2[index] ? -1 : 1);
+}
+locations.sort(function(el1,el2){
+	return compare(el1, el2, "name")
+});
+
 // declare the wikiSummary variable
 var wikiSummary;
 
