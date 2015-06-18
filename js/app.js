@@ -4,6 +4,7 @@ var Location = function(data, parent) {
 	this.name = ko.observable(data.name);
 	this.review = ko.observable(data.review);
 	this.wiki = ko.observable(data.wiki);
+	this.fs = ko.observable(data.fs);
 	this.category = ko.observableArray(data.category);
 	this.lat = ko.observable(data.lat);
 	this.lng = ko.observable(data.lng);
@@ -178,47 +179,65 @@ var ViewModel = function() {
 			.done(function(data) {
 				var venue = data.response.venues[0];
 
+				// check to see if we should fire a FourSquare request
+				if (location.fs() === '1') {
+				
 				//set called Foursquare data as properties
 				location.id = ko.observable(venue.id);
 
-				// grab the url for the location if Foursquare has it or set it to null 
-				if (venue.hasOwnProperty('url')) {
-					location.url = ko.observable(venue.url);
+					// grab the url for the location if Foursquare has it or set it to null 
+					if (venue.hasOwnProperty('url')) {
+						location.url = ko.observable(venue.url);
+					}
+					else location.url = null;
+
+					// grab the phone number for the location if Foursquare has it or set it to null 
+					if (venue.hasOwnProperty('contact') && venue.contact.hasOwnProperty('formattedPhone')) {
+						location.phone = ko.observable(venue.contact.formattedPhone);
+					}
+					else location.phone = null;
+
+					// request Foursquare photos
+					$.ajax({
+						url: foursquareApi.baseUrl+location.id()+'/photos?client_id='+foursquareApi.clientId+'&client_secret='+foursquareApi.clientSecret+'&v='+foursquareApi.ver
+					})
+
+					.done(function(data) {
+						// grab the first eight Foursquare photos for each location. TODO: convert to array
+						var photos = data.response.photos.items;
+						location.photo1 = ko.observable(photos[0].prefix + 'height200' + photos[0].suffix);
+						location.photo2 = ko.observable(photos[1].prefix + 'height200' + photos[1].suffix);
+						location.photo3 = ko.observable(photos[2].prefix + 'height200' + photos[2].suffix);
+						location.photo4 = ko.observable(photos[3].prefix + 'height200' + photos[3].suffix);
+						location.photo5 = ko.observable(photos[4].prefix + 'height200' + photos[4].suffix);
+						location.photo6 = ko.observable(photos[5].prefix + 'height200' + photos[5].suffix);
+						location.photo7 = ko.observable(photos[6].prefix + 'height200' + photos[6].suffix);
+						location.photo8 = ko.observable(photos[7].prefix + 'height200' + photos[7].suffix);
+						location.state(true);
+
+						// set the selected location
+						self.selectedLocation(location);
+					})
+					.fail(function(err) {
+						// if error then set the error status and set the selected location
+						self.connectionError(true);
+						self.selectedLocation(location);
+					});
 				}
-				else location.url = null;
-
-				// grab the phone number for the location if Foursquare has it or set it to null 
-				if (venue.hasOwnProperty('contact') && venue.contact.hasOwnProperty('formattedPhone')) {
-					location.phone = ko.observable(venue.contact.formattedPhone);
+				// if we're not firing a Foursquare request then set all Foursquare data to null and update location
+				else {
+					location.phone = null;
+					location.url = null;
+					location.photo1 = null;
+					location.photo2 = null;
+					location.photo3 = null;
+					location.photo4 = null;
+					location.photo5 = null;
+					location.photo6 = null;
+					location.photo7 = null;
+					location.photo8 = null;
+					self.selectedLocation(location);
 				}
-				else location.phone = null;
-
-				// request Foursquare photos
-				$.ajax({
-					url: foursquareApi.baseUrl+location.id()+'/photos?client_id='+foursquareApi.clientId+'&client_secret='+foursquareApi.clientSecret+'&v='+foursquareApi.ver
-				})
-
-				.done(function(data) {
-					// grab the first eight Foursquare photos for each location. TODO: convert to array
-					var photos = data.response.photos.items;
-					location.photo1 = ko.observable(photos[0].prefix + 'height200' + photos[0].suffix);
-					location.photo2 = ko.observable(photos[1].prefix + 'height200' + photos[1].suffix);
-					location.photo3 = ko.observable(photos[2].prefix + 'height200' + photos[2].suffix);
-					location.photo4 = ko.observable(photos[3].prefix + 'height200' + photos[3].suffix);
-					location.photo5 = ko.observable(photos[4].prefix + 'height200' + photos[4].suffix);
-					location.photo6 = ko.observable(photos[5].prefix + 'height200' + photos[5].suffix);
-					location.photo7 = ko.observable(photos[6].prefix + 'height200' + photos[6].suffix);
-					location.photo8 = ko.observable(photos[7].prefix + 'height200' + photos[7].suffix);
-					location.state(true);
-
-					// set the selected location
-					self.selectedLocation(location);
-				})
-				.fail(function(err) {
-					// if error then set the error status and set the selected location
-					self.connectionError(true);
-					self.selectedLocation(location);
-				});
 			});
 
 			//***************************************************************** Call Wikipedia API
