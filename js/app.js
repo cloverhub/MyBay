@@ -289,14 +289,14 @@ var ViewModel = function() {
 var Map = {
 	map: {},
 	infoWindow: new google.maps.InfoWindow({
-			maxWidth: 200
+			maxWidth: 240
 		}),
 	options: {
 		center: {lat: 37.8, lng: -122.3},
 		zoom: 10
 	},
 	// set the infowindow content and apply css classes to the content
-	infoWindowContent: '<div class="info-window"><div class="window-title">%title%</div><div class="window-description"><h5>My Take:</h5>%description%</div></div>',
+	infoWindowContent: '<div class="info-window"><div class="window-title">Why I Dig %title%:</div><div class="window-description">%description%</div></div>',
 	initialize: function(viewModel) {
 		Map.map = new google.maps.Map(document.getElementById('map'), Map.options);
 		// show markers using either viewModel or Google Map
