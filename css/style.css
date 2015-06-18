@@ -17,6 +17,14 @@ h5 {
 	margin-bottom: 8px !important;
 }
 
+footer {
+	margin-top: 100px;
+	text-align: center;
+	background-color: #B2D0FB;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
 #filters-panel {
 	position: absolute;
 	top: 10px;
