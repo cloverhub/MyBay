@@ -392,7 +392,7 @@ var locations = [
 		"lng": -122.018069,
 		"review": "There's enough surviving nostalgia at the boardwalk to still make it a fun place and maintain the old seaside amusement park feel from a century ago. The Giant Dipper and carousel are meticulously-maintained and remain absolute classics.",
 		"wiki": "1",
-		"fs": "1",
+		"fs": "0",
 		"category": ["fun", "kids"]
 	},
 	{

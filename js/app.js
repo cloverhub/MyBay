@@ -184,6 +184,8 @@ var ViewModel = function() {
 				
 				//set called Foursquare data as properties
 				location.id = ko.observable(venue.id);
+				// create the link back to Foursquare per Foursquare Attribution & Linking policy
+				foursquareLink = ko.observable('<a href="http://foursquare.com/v/'+venue.id+'?ref='+foursquareApi.clientId+'" target="_blank">more from Foursquare</a>');
 
 					// grab the url for the location if Foursquare has it or set it to null 
 					if (venue.hasOwnProperty('url')) {
@@ -228,6 +230,7 @@ var ViewModel = function() {
 				else {
 					location.phone = null;
 					location.url = null;
+					location.foursquareLink = null;
 					location.photo1 = null;
 					location.photo2 = null;
 					location.photo3 = null;
