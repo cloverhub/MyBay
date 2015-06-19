@@ -35,7 +35,7 @@ function compare(el1, el2, index) {
 	return el1[index] == el2[index] ? 0 : (el1[index] < el2[index] ? -1 : 1);
 }
 locations.sort(function(el1,el2){
-	return compare(el1, el2, "name")
+	return compare(el1, el2, "name");
 });
 
 // declare the wikiSummary variable
@@ -275,7 +275,7 @@ var ViewModel = function() {
 					location.wikiSummary = ko.observable(articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a>');
 				}
 				clearTimeout(wikiRequestTimeout); // clear the timeout
-			})
+			});
 		}
 		// if the location has data
 		else {
