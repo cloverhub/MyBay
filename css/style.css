@@ -11,6 +11,7 @@ h1 {
 h2 {
 	font-family: 'Galindo', cursive !important;
 }
+
 h5 {
 	font-size: 1.2em !important;
 	font-weight: 200 !important;
@@ -100,9 +101,6 @@ input[type="checkbox"]:checked + .filter-label {
 	box-shadow: 4px 4px 3px #888888;
 }
 
-map {
-}
-
 #wrapper {
 	position: relative;
 	padding: 0px;
@@ -118,6 +116,7 @@ map {
 	border-top: 5px;
 }
 
+/* location list with mobile touch scrolling */
 #location-list {
 	height: 100%;
 	overflow-y: scroll;
@@ -138,16 +137,15 @@ map {
 }
 
 /* fluid horizontal-scrollable row for photos */
-.row-fluid{
+.row-fluid {
 	white-space: nowrap;
 }
 
-.row-fluid .col-lg-3{
+.row-fluid .col-lg-3 {
 	display: inline-block;
 }
 
 /* Google Maps infowindow styling referenced from app.js */
-
 .info-window {
 }
 
