@@ -28,6 +28,8 @@ var Location = function(data, parent) {
 	this.marker = marker;
 };
 
+
+//***************************************************************** Misc
 // alphabetize location names in the JSON data A-Z
 function compare(el1, el2, index) {
 	return el1[index] == el2[index] ? 0 : (el1[index] < el2[index] ? -1 : 1);
@@ -304,7 +306,7 @@ var Map = {
 		zoom: 10
 	},
 	// set the infowindow content and apply css classes to the content
-	infoWindowContent: '<div class="info-window"><div class="window-title">Why I dig %title%:</div><div class="window-description">%description%</div></div>',
+	infoWindowContent: '<div class="info-window"><div class="window-title">Why I dig %title%</div><hr><div class="window-description">%description%</div></div>',
 	initialize: function(viewModel) {
 		Map.map = new google.maps.Map(document.getElementById('map'), Map.options);
 		// show markers using either viewModel or Google Map

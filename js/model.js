@@ -6,7 +6,7 @@ var locations = [
 		"review": "Even if you're not here to see an exhibit, it's worth a visit to take the elevator up to the free observation deck for a 360 degree panoramic view of the city.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["museum"]
+		"category": ["arts"]
 	},
 	{
 		"name": "Zero Zero",
@@ -38,7 +38,7 @@ var locations = [
 	{
 		"name": "Redwood Valley Railway",
 		"lat": 37.880024,
-		"lng":  -122.222198,
+		"lng": -122.222198,
 		"review": "If you like miniature steam trains, these are some of the best in the world. I've been riding these since I was a little kid and they never get old. The sound of the steam whistle, the puffing from the firebox, and the smell of the steam manage to get etched in your senses.",
 		"wiki": "1",
 		"fs": "1",
@@ -84,10 +84,10 @@ var locations = [
 		"name": "California Academy of Sciences",
 		"lat": 37.769725,
 		"lng": -122.4661,
-		"review": "I have to admit, I liked the old CAS better than the new one, but the times they are a changin' I suppose. There was something about that old custom-built planetarium projector with all the little doodads  protruding out at every angle. It was a one-of-a-kind mechanical marvel. I hear it's crated up somewhere in one of the Smithsonian warehouses now. The new Morrison Planetarium is really a movie rather than a true planetarium show, but they always have a good show.<br/><br/>Nevertheless, I've been a member since opening day and we enjoy the member's nights and other special events.",
+		"review": "I have to admit, I liked the old CAS better than the new one, but the times they are a changin' I suppose. There was something about that old custom-built planetarium projector with all the little doodads protruding out at every angle. It was a one-of-a-kind mechanical marvel. I hear it's crated up somewhere in one of the Smithsonian warehouses now. The new Morrison Planetarium is really a movie rather than a true planetarium show, but they always have a good show.<br/><br/>Nevertheless, I've been a member since opening day and we enjoy the member's nights and other special events.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["museum", "kids"]
+		"category": ["science", "kids"]
 	},
 	{
 		"name": "Buchanan Field Airport",
@@ -123,7 +123,7 @@ var locations = [
 		"review": "This place has a Neiman Marcus Kitchen Computer for crying out loud. I mean this 100 pound, $11k monstrosity had a built-in cutting board. The idea is that you buy this contraption, send the wife to a two week class to learn how to program it in binary code with nothing more than blinking lights as output, and then let it figure out some gourmet meals for your wife to cook. This and many other exhibits at the CHM really make you realize how far computers have come and the awkward years of trying to figure out what useful things a home computer could do.<br/><br/>I'm not sure if a non-geek would enjoy a visit here, but I just eat this stuff up. I love it.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["museum"]
+		"category": ["science"]
 	},
 	{
 		"name": "Stow Lake Boat House",
@@ -150,7 +150,7 @@ var locations = [
 		"review": "I practically grew up in the Exploratorium. I didn't realize it when I was 7 years old, but I was already grasping the fundamentals of physics, biology, geology, thermodynamics, and botany. I could solve binary arithmetic problems and explain to my friends why a bicycle stands up. Things like computer programming and physics were a breeze later on in high school.<br/><br/>Although it's no longer donation-only, today's Exploratorium is better than ever. I've had a family membership for years and bring the family in often. This is one of the best places around to bring kids--they will have fun and can't help but learn along the way. When the new location first opened, I missed the old dark, dank, cavernous feel of the original location, but the location, capacity, and overall atmosphere of the new location seems natural now. The food and waterfront view aren't bad either.<br/><br/>I've been to hands-on science museums around the world that have followed the Exploratorium's model, but the Exploratorium is the original and still the best.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["museum"]
+		"category": ["science"]
 	},
 	{
 		"name": "Montclair Egg Shop",
@@ -249,13 +249,13 @@ var locations = [
 		"review": "This is a must-see place for any rail fan or street car fan. It's a small half museum/half store with plenty of unique things that you can't buy anywhere else.<br/><br/>I'm a sucker for the limited odds and ends they sell here and I have a growing collection of things like cable car track pieces and genuine Muni rollsigns that have retired from service.<br/><br/>And don't forget to pick up a calendar. My photos have been featured in it for several years.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["museum"]
+		"category": ["arts"]
 	},
 	{
 		"name": "Ocean Beach, San Francisco",
 		"lat": 37.769746,
 		"lng": -122.512446,
-		"review": "Review coming soon...",
+		"review": "Sure it's no tropical Hawaiian beach, but it's our beach and I love it. The water's cold but refreshing on a hot, sunny day. Ocean Beach is also great for dog swimming and kite flying. A walk over to the Beach Chalet or up to the Cliff House for a beer (or two) and bite to eat is always in order after a day trip to the beach.<br/><br/>But the beach comes alive as the sun dips into the Pacific and the pastel houses along the Great Highway glow. I've been to and even set up a few bonfire parties on the beach, which never fail to be good times. Just keep the flame height lower than the beach wall or you get a visit from the friendly ranger.",
 		"wiki": "1",
 		"fs": "1",
 		"category": ["outdoors"]
@@ -267,7 +267,7 @@ var locations = [
 		"review": "Testing",
 		"wiki": "1",
 		"fs": "0",
-		"category": ["museum"]
+		"category": ["arts", "fun"]
 	},
 	{
 		"name": "Mission Dolores Park",
@@ -321,7 +321,7 @@ var locations = [
 		"review": "A must see for any Disney fan, the WDFM has a treasure trove of artifacts from the early Walt days all the way up to the creation of Disneyland. I can gaze for hours at the massive and detailed Disneyland scale model.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["museum"]
+		"category": ["arts"]
 	},
 	{
 		"name": "Clarion Alley",
@@ -348,7 +348,7 @@ var locations = [
 		"review": "It's sort of a shame that the good old Hornet is tucked away in the far corner of Alameda, hidden from tourists (and probably even locals who don't know about it). It just doesn't enjoy the front-and-center glory of its cousin the Midway down in San Diego gets, but that's part of the Hornet's charm.<br/><br/>The Hornet is brimming with history, from WWII to retrieving the Apollo 11 astronauts, and it's the sort of place you can climb aboard and just go explore. There are little nooks and crannies everywhere to check out.<br/><br/>Even though the Hornet is not on center stage in the Bay Area, it certainly should be.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["museum", "explore"]
+		"category": ["science", "explore"]
 	},
 	{
 		"name": "William Stout Architectural Books",
@@ -429,6 +429,195 @@ var locations = [
 		"review": "With my dad in the opera, I grew up with carte blanche to the backstage of the opera house. Instead of sitting bored in a seat during rehearsals, I would explore. From the dank depths of the basement to the catwalks above the stage, I use to know my way around every little niche and hideaway in the massive building. I still think about my 'junior phantom' days whenever I go see an opera.",
 		"wiki": "1",
 		"fs": "1",
+		"category": ["arts"]
+	},
+	{
+		"name": "Palace of Fine Arts",
+		"lat": 37.802938,
+		"lng": -122.448389,
+		"review": "Even though the Exploratorium is gone, the Palace of Fine Arts is the only lasting remains (although rebuilt) of the enormous 1915 Pan Pacific Exposition which took up most of Cow Hollow and the Marina District 100 years ago. Once a filthy place, the lake has been cleaned up and is nice to take a walk around or relax on the lawn and gaze at the swans and endless wedding parties coming for photos. Everything is earthquake-retrofitted now, so you can relax while standing under the massive dome. The theater makes for a great music venue too.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["outdoors", "arts"]
+	},
+	{
+		"name": "Point Bonita Lighthouse",
+		"lat": 37.815620,
+		"lng": -122.529520,
+		"review": "One of the jewels of the northern California coastline. The short hike down to the lighthouse is worth it in itself for the views of the Golden Gate and the coastline. Make your way through the dark cave and to the bouncy, swaying cable suspension bridge that extends across to the lighthouse. Many people seem to chicken out but the bridge is the highlight of the hike!",
+		"wiki": "1",
+		"fs": "1",
 		"category": ["explore"]
+	},
+	{
+		"name": "Chabot Space and Science Center",
+		"lat": 37.818667,
+		"lng": -122.180884,
+		"review": "Once a staple destination for my elementary school fieldtrips and YMCA summer camp outings, the old Chabot had its charm, but it was always the same routine: you unload out of the school bus, the guy in the lab coat bangs the little rocket on the cable with his hammer, then they file you into the tiny planetarium.<br/><br/>This is not your father's Chabot anymore. The new place is a state-of-the-art facility with much more to do. The exhibits are always interesting and the kids love it.<br/><br/>But the best experience at Chabot is on those clear Friday nights when all the amateur astronomers are set up and the big scopes are locked and loaded. There's no better place in the Bay Area to go stargazing with plenty of experts to explain exactly what you're looking at!",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["science", "kids"]
+	},
+	{
+		"name": "Niles Canyon Railway",
+		"lat": 37.594162,
+		"lng": -121.889028,
+		"review": "Huge steam trains in the Bay Area! This heritage railway runs a short out and back track through beautiful Niles Canyon and transports you back to yesteryear. The holiday train is always fun but my favorite special event is the photographer's special where they drop you off at picturesque spots along the track and 'pose' the trains and run them back and forth for photo opportunities.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["fun"]
+	},
+	{
+		"name": "Ramen Underground",
+		"lat": 37.791550,
+		"lng": -122.404028,
+		"review": "I love me some good ramen and this is my favorite in the city. Forget just the city, I don't think I've had ramen this good in all the little ramen places I explored in Tokyo. This place is the real deal with Japanese staff and fresh noodles.<br/><br/>I've settled in on the Tonkatsu limited-dinner-only special with extra noodles and extra pork as my go-to ramen here. No way you'll leave hungry after that. And you can always just ask for a noodle refill if your noodle-to-broth ratio falls short mid-bowl.<br/><br/>We only come here for dinner when there's rarely any trouble getting a table. I couldn't imagine trying to cram in here during weekday lunch.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Treasure Island Bar and Grill",
+		"lat": 37.816678,
+		"lng": -122.370466,
+		"review": "I've been here at least a dozen times in the past few months while working on a project on TI, and keep coming back, usually meeting with my family. Believe it or not, way out there in the middle of the bay, the burritos are outstanding! Good meat, good fillin's, and good-sized. I've tried some of the other dishes (picking off other people's plates) so I know the fish tacos and meat platters are good too, but I always stick to the burrito.<br/><br/>The bartenders are pro mixologists and can make almost any drink. The beer is of the bottled variety but there's a decent selection and it's always cold.<br/><br/>Don't expect anything fancy--this is far from a full-blown restaurant. You order at the end of the bar and your food is delivered to your table. The TVs are always tuned into sports, and if there's a Giants game, you can be assured it will be on all screens. The place has a small-town feel right smack in the middle of two metropolises.<br/><br/>The outdoor patio is perfect for warm days, with views of the eastern span and good old Goat Island. A wind screen surrounds the patio to keep TI's infamous gusts to almost nothing.<br/><br/>5 stars for location, good food and drinks, views, nice peeps, and the fact that it's always easy to get in and get some food without huge crowds.",
+		"wiki": "0",
+		"fs": "0",
+		"category": ["grub"]
+	},
+	{
+		"name": "Los Cantaros Restaurant and Taqueria",
+		"lat": 37.809161,
+		"lng": -122.256578,
+		"review": "This is hands-down the best burrito place in Oakland. And it's one of only a few counter-service taquerias open for dinner. The burritos are big and delicious.<br/><br/>They don't skimp on the guacamole and the burritos aren't greasy, resulting in a respectable guac to grease ratio--one of many factors in my burrito rating algorithm.<br/><br/>The place is always busy, the employees are friendly, and you can usually catch whatever game is playing on one of the TVs. The margaritas aren't fantastic, but what can you expect for $4?<br/><br/>On my go-to list to get my burrito fix when in Oakland.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "The Little Chihuahua",
+		"lat": 37.772042,
+		"lng": -122.437009,
+		"review": "Pure awesomeness! This place always seems to be PACKED, but it's definitely worth it. I find myself sometimes making a detour to hit this place when I find myself on this side of town.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Taqueria Cancún",
+		"lat": 37.760495,
+		"lng": -122.419494,
+		"review": "Crazy delicious burrito!<br/><br/>This place makes a nearly perfect burrito. The ingredients are fresh, the meat is piled on plentifully, and even the tortillas are good, resulting in a nice bulky and tightly-wrapped burrito with the weight of a dumbbell. The burritos are quite spicy by default, so if you don't like spicy you better tell them before they start pouring everything on.<br/><br/>Only downsides here are that they don't take credit cards and the chips seem to be store-bought and a bit stale.<br/><br/>The price is right, except I usually need to tack on $2 for the ATM fee because I never seem to carry cash anymore with just about every place in the world accepting credit cards now.",
+		"wiki": "0",
+		"fs": "0",
+		"category": ["grub"]
+	},
+	{
+		"name": "Philz Coffee",
+		"lat": 37.775469,
+		"lng": -122.393445,
+		"review": "I almost wish I never tried this place because it brings coffee to a higher level, and good old Peet's will just never be the same. Seriously, what do they put in this coffee? And I don't say this just because this is the latest circle J that we San Franciscans tend to fall into over trendy places, but because it really is the greatest coffee ever.<br/><br/>I'm finding myself increasingly walking past the Peet's across the street from me in favor of the 1/2 mile trek to Philz.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "El Castillito",
+		"lat": 37.768747,
+		"lng": -122.429388,
+		"review": "Ok I went back to give this place a second chance and had quite possibly the greatest burrito ever made. I mean it was so good I just sat and and day dreamed about it for a while after the last bite. I almost felt obligated to cuddle with the wrapper or something afterward.<br/><br/>I would normally deduct:<br/><br/> - 1/2 star for inconsistent quality since I wasn't that impressed the 1st time<br/><br/> - 1/2 star for cash only and forcing me to take 96 cents in change<br/><br/>However, I'll give it an extra credit star for the mind-altering deliciousness.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "The Garden Court",
+		"lat": 37.788014,
+		"lng": -122.401866,
+		"review": "The Palace Hotel was one of the largest and finest hotels in the US when it opened in 1875. The 'New' Palace opened in 1909 after the original burned after the great quake of 1906. The Garden Court of the New Palace is in the exact same spot as the original Grand Court where horse drawn carriages would enter the hotel.<br/><br/>The Garden Court of the New Palace upholds the prestigious history of hotel's 19th century roots. The entire court remains nearly identical and maintains all the elegance it held in the early 1900s (except there are many more tables crammed in). The whole hotel brims with history.<br/><br/>This is a great place for those special occasion brunches. The service is top-notch. I mean you won't go 30 seconds with an empty champaign glass without someone topping it off. There are more food choices that you can even sample at one sitting, so choose wisely. All the seafood dishes are primo stuff. But it's definitely not cheap at $100/person after tip.<br/><br/>And don't worry, there are no horses coming through the court anymore.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Taqueria Cazadores",
+		"lat": 37.772788,
+		"lng": -122.418845,
+		"review": "I randomly stumbled across this little tucked-away trailer tonight and promptly approached the window at the urging of my growling stomach. Holy tortilla! This burrito just instantly earned a spot on my top 10 burritos in SF list (and believe me I've put years of research into my list).<br/><br/>You wouldn't expect a little trailer to be stocked with all the different tortilla flavors (spinach, tomato, etc), but this little mobile unit is gourmet all the way! I had a super grilled chicken burrito on spinach tortilla. Unlike many taco trucks, the burrito is not greasy at all. The grilled chicken is among the best I've ever tasted wrapped inside a tortilla. The guacamole and rice are up to par too. Best of all, the burrito is huge.<br/><br/>There are a few tables squeezed in the little slot next to the trailer if you don't mind the noise of the mega Van Ness and Mission intersection. I don't live too close, but I'm sure I'll be making the trek out here for more whenever I get a chance.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Taqueria Mana",
+		"lat": 37.790084,
+		"lng": -122.407305,
+		"review": "I've seen this place many times when heading up Stockton St, but it always looked sort of scary in it's dirty little corner near the tunnel next to the happy ending place. This definitely falls into the 'don't judge a book by it's cover' category.<br/><br/>I got a chicken super burrito without sour cream. Once I sunk my teeth into it, I couldn't believe I didn't discover this place sooner. The whole thing was juicy and delicious--I mean juicy rather than greasy...and I do mean delicious. Chopped onions, melted cheese, succulent chicken, delicious white rice, and a bunch of other stuff. I've never had such a juicy burrito, and it was perfect. Nice, hefty size too.<br/><br/>The guy at the register was friendly too. I'll be coming back here all the time.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Java Beach Cafe",
+		"lat": 37.760465,
+		"lng": -122.509014,
+		"review": "My favorite coffee shop by the beach. They brew up a mean cup of joe here and make some tasty, hefty sandwiches too. They've even got a little bar in back with draft beer. The occasional live band shows up outside for some entertainment.<br/><br/>The biggest downside to the place is when the hog bikers show up and take over the place.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Hilda’s Coffee Shop",
+		"lat": 37.975751,
+		"lng": -122.562993,
+		"review": "Stumbled across Hilda's on a recent drive to San Anselmo. This place is about as mom and pop as they come. I almost ordered French toast but our very kindly waitress talked me into the pancakes, which I was assured Hilda's was famous for.<br/><br/>She wasn't kidding. These were seriously the best pancakes I've ever had in my life. Deliciously soft in the middle and then taking on a crispy crepe-like consistency as you approach the perimeter.<br/><br/>The whole experience makes this place worth a repeat morning breakfast visit to San Anselmo.<br/><br/>Been back many, many times since. Always order the German pancakes and coffee. Often manage to be seated right next to George Lucas, another frequent customer. I do not bring up Jar Jar Binks to him.",
+		"wiki": "0",
+		"fs": "0",
+		"category": ["grub"]
+	},
+	{
+		"name": "Limón Rotisserie",
+		"lat": 37.757027,
+		"lng": -122.416476,
+		"review": "Wrote my first 4-star review when this place first opened and they didn't even have their alcohol license.<br/><br/>Limon has since made it's way up on to my list of favorite restaurants in the city. They have a full bar now and serve great Peruvian beers and some top-notch sangria. The food is better than ever and it seems like the menu has expanded a bit. I love this place!",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Taquerias El Farolito",
+		"lat": 37.752716,
+		"lng": -122.418265,
+		"review": "I'm embarrassed and ashamed to have overlooked this location of El Farolito for so long. It turns out it's the best and one of the best burritos in SF.<br/><br/>There are plenty of great burritos in the Mission, and then there are places like this that add that little extra something that makes devouring the burrito a life-altering experience. I'm talking little things like the perfect blend of spices, the way the tortilla is grilled just right, and so on.<br/><br/>And for the trifecta, not only are they delicious, but the burritos are huge and cheap.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "The Chieftain Irish Pub and Restaurant",
+		"lat": 37.781488,
+		"lng": -122.405237,
+		"review": "One of my favorite local watering holes! Great place to hang out with buddies and catch a soccer game (which always seem to be on here). Great Guinness and they probably have the BEST fish & chips in the world. Mmmm...crazy delicious. The atmosphere is genuine Irish (if you've been to Ireland).",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Papalote Mexican Grill",
+		"lat": 37.775700,
+		"lng": -122.445977,
+		"review": "I originally knocked off a star for the outrageously-priced $21 triple-threat burrito, but I've been drawn like a vacuum into Papalote whenever I'm in the neighborhood for the past few years. A chicken super burrito is the same size and half that price, just prawn-less. The burritos are filled with fresh ingredients, wrapped in a flakey tortilla, and have a decent heft. A genuine top-notch product.<br/><br/>The staff is friendly and delivers said burrito on a plate with some tasty chips and gourmet-type salsa. And you've gotta love the perfect 100 health inspection score.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "House of Prime Rib",
+		"lat": 37.793324,
+		"lng": -122.422641,
+		"review": "This place is a San Francisco legend and lives up to the hype. Get back into your Neanderthal roots and prepare for some serious carnivorous chow down. The whole meal revolves around your choice of prime rib with a salad, potato, Yorkshire pudding, and creamed spinach--I'm not sure if anything else is even an option. You'll get a tree of fresh horseradish blends, including the straight-up variety which I prefer.<br/><br/>Go for the king size cut and they'll bring you a bonus cut if you can finish that (no you can't get a doggy bag for the bonus meat). There's no way to leave this place hungry. Service is great, atmosphere great...what can I say. The price is actually a good deal considering the quantity/quality of food.<br/><br/>TIP: If you're early to your reservation or waiting for a table, the Thai bar a few doors down has mugs of draft beer the size of a bathtub for $5. Great way to start off an evening of complete excess.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
 	}
 ];
