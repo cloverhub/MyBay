@@ -303,7 +303,10 @@ var Map = {
 		}),
 	options: {
 		center: {lat: 37.8, lng: -122.3},
-		zoom: 10
+		zoom: 10,
+		maxZoom: 15,
+		minZoom: 9,
+		backgroundColor: '#B2D0FB'
 	},
 	// set the infowindow content and apply css classes to the content
 	infoWindowContent: '<div class="info-window"><div class="window-title">Why I dig %title%</div><hr><div class="window-description">%description%</div></div>',
