@@ -862,6 +862,6 @@ var locations = [
 		"review": "The best little secluded beach in the Bay Area. It's a bit of a hike down from the road, but worth it. Once on the beach, you find yourself practically right under the Golden Gate Bridge with an incredible view of the NW side of the city all the way to downtown San Francisco.<br/><br/>I've come down here at night with a ton of photo equipment strapped to my back to capture the super moon rising over the city. A sight I'll never forget!",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["ourdoors"]
+		"category": ["outdoors"]
 	}
 ];
