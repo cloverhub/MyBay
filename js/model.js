@@ -142,7 +142,7 @@ var locations = [
 		"review": "I always wanted to pretend I was an architect (or city urban planner for that matter) and Builder's scratches that itch. So what if the only cities I'm building are in SimCity? This is one of those bookstores that I love to browse because I find something new every time I walk in.<br/><br/>About a third of the store is dedicated to technical books specific to code, contractors, building regulations, etc., but the rest of the store has the fun stuff. You can find nice hardbound with glossy paper books on architecture, urban planning, design, structural engineering, and even local interest with some independently-published local author books. They even have good kids books and a few non-book gift-type things.<br/><br/>This is my go-to refuge whenever I'm brought along on shopping trips to 4th Street. And I almost always walk out with gift to myself.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["stuff"]
+		"category": ["arts"]
 	},
 	{
 		"name": "Exploratorium",
@@ -151,7 +151,7 @@ var locations = [
 		"review": "I practically grew up in the Exploratorium. I didn't realize it when I was 7 years old, but I was already grasping the fundamentals of physics, biology, geology, thermodynamics, and botany. I could solve binary arithmetic problems and explain to my friends why a bicycle stands up. Things like computer programming and physics were a breeze later on in high school.<br/><br/>Although it's no longer donation-only, today's Exploratorium is better than ever. I've had a family membership for years and bring the family in often. This is one of the best places around to bring kids--they will have fun and can't help but learn along the way. When the new location first opened, I missed the old dark, dank, cavernous feel of the original location, but the location, capacity, and overall atmosphere of the new location seems natural now. The food and waterfront view aren't bad either.<br/><br/>I've been to hands-on science museums around the world that have followed the Exploratorium's model, but the Exploratorium is the original and still the best.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["sci-tech"]
+		"category": ["sci-tech", "kids"]
 	},
 	{
 		"name": "Montclair Egg Shop",
@@ -223,7 +223,7 @@ var locations = [
 		"review": "When your feet have had enough punishment pounding the concrete city sidewalks, give them the rejuvenating treatment of the Kezar track. The modern track and rest of the stadium are impeccably maintained. The bleachers are perfect for sprints too.<br/><br/>Listen closely for distant historic echoes of 49er fans cheering alley-oop touchdown passes from YA Tittle to RC Owens.<br/><br/>Just stay out of lane 1 (unless you're running sub 6 minute miles) and respect the other runners and track teams who often train there. And taking a single step onto the grass is a big no-no.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["workout", "outdoors"]
+		"category": ["outdoors"]
 	},
 	{
 		"name": "Playland-Not-At-The-Beach",
@@ -286,7 +286,7 @@ var locations = [
 		"review": "My favorites go-to place for a super-intense stair running workout.<br/><br/>Start at the base of the stairs near Sansome Street and start running upward, two steps at a time. Pass Napier Lane, one of the only short boardwalk alleys left in the city where sailors were once shanghaied, then up to the spectacular Coit Tower. Walk down the neighboring Greenich Steps. Rinse, lather, repeat 4x.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["workout", "outdoors"]
+		"category": ["outdoors"]
 	},
 	{
 		"name": "Leroy King Carousel",
@@ -296,15 +296,6 @@ var locations = [
 		"wiki": "0",
 		"fs": "1",
 		"category": ["fun", "kids"]
-	},
-	{
-		"name": "Wingtip",
-		"lat": 37.794529,
-		"lng": -122.402985,
-		"review": "I was first drawn in because I was curious to see what had become of the old Bank of Italy building. I was not disappointed. They've done some serious remodeling, but many of the original architectural elements and decorations of the original bank are still intact. Most of the ground floor is restored and original and you can go downstairs and wander the vaults with all the safe deposit boxes opened up.<br/><br/>I picked up a pair of 1000 Mile Boots. The salesman was great and, before I knew it, he had a dozen varieties of boots laid out in front of me without once returning with news of being out of stock of anything.<br/><br/>I probably walked past this place 50 times before I realized I could go inside. All you see from the street is a security guard at a desk right at the front door which isn't exactly a welcoming sight for a store, but apparently the guard is just there to check people in to the social club upstairs.",
-		"wiki": "0",
-		"fs": "1",
-		"category": ["stuff"]
 	},
 	{
 		"name": "The Walt Disney Family Museum",
@@ -331,7 +322,7 @@ var locations = [
 		"review": "One of my favorite kayak put-ins to go cruise around Alameda while the girls shop at farmers market.",
 		"wiki": "0",
 		"fs": "0",
-		"category": ["workout"]
+		"category": ["outdoors"]
 	},
 	{
 		"name": "USS Hornet Museum",
@@ -349,7 +340,7 @@ var locations = [
 		"review": "In today's modern world of ebooks, there's still nothing like a stack of nice and heavy hard-covered architectural books on the coffee table, and this is the place to get them. Although I'm no architect and only a pretend urban planner, this is my favorite bookstore in the city to peruse. Stout has a good collection of local SF books, many of which I don't seem to run into at other bookstores. I love going through the transportation section and the modern architecture stuff as well.<br/><br/>The only problem is I often walk out having to lug a 20 pound book the size of a briefcase all the way back home.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["stuff"]
+		"category": ["arts"]
 	},
 	{
 		"name": "Mount Diablo State Park",
@@ -358,7 +349,7 @@ var locations = [
 		"review": "Probably my favorite bike ride in the entire Bay Area is to the summit of Diablo, even though I'm far from a being a climber. I've ridden up 100+ times from both sides and hiked up a few times too. After an hour of climbing, there's something about that final 150 yard, 16% gradient stretch to the summit that puts the body through unthinkable excruciation, making the view from the top so much sweeter.<br/><br/>I like the mountain so much I was Race Director for the annual USA Cycling-sanctioned Mt. Diablo Hill Climb for a number of years.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["workout", "outdoors"]
+		"category": ["outdoors"]
 	},
 	{
 		"name": "Mount Tamalpais State Park",
@@ -367,7 +358,7 @@ var locations = [
 		"review": "The Bay Area's go-to epicenter of mountain biking in my opinion. After all, Mt. Tam was the birthplace of the mountain bike and the trails and views are spectacular.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["workout", "outdoors"]
+		"category": ["outdoors"]
 	},
 	{
 		"name": "Pigeon Point",
@@ -380,11 +371,11 @@ var locations = [
 	},
 	{
 		"name": "Santa Cruz Beach Boardwalk",
-		"lat": 36.964282,
-		"lng": -122.018069,
+		"lat": 36.964226,
+		"lng": -122.018022,
 		"review": "There's enough surviving nostalgia at the boardwalk to still make it a fun place and maintain the old seaside amusement park feel from a century ago. The Giant Dipper and carousel are meticulously-maintained and remain absolute classics.",
 		"wiki": "1",
-		"fs": "0",
+		"fs": "1",
 		"category": ["fun", "kids"]
 	},
 	{
@@ -763,7 +754,7 @@ var locations = [
 		"review": "Point Reyes is one of the natural jewels of the Bay Area. Our big 5th grade trip was in a camp in Point Reyes where we learned to appreciate the majesty of tide pools, beaches, and trails. Although I've only camped in Point Reyes a few times since, there's plenty to do during a day drive. We never miss the lighthouse and beaches and occasionally indulge in some fresh oysters.",
 		"wiki": "1",
 		"fs": "0",
-		"category": ["ourdoors", "explore"]
+		"category": ["outdoors", "explore"]
 	},
 	{
 		"name": "Oracle Arena",
@@ -791,5 +782,86 @@ var locations = [
 		"wiki": "0",
 		"fs": "1",
 		"category": ["outdoors"]
+	},
+	{
+		"name": "San Francisco Zoo",
+		"lat": 37.732953,
+		"lng": -122.503148,
+		"review": "As much as the zoo has changed over the years, there are plenty of old 1930s depression-era WPA buildings still intact which are always interesting to explore. And the Little Puffer steam train, the hardest working machine in all of San Francisco, is a must-do on each visit. And the 1921 Dentzel menagerie is one of San Francisco's three antique carousels, but is eerily quiet with no music playing.<br/><br/>The animals themselves are the standard zoo assortment. Of course, the birth of the American bald eagle named Stephen Colbert in 2006 was the zoo's all-time biggest star!",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["fun", "kids"]
+	},
+	{
+		"name": "Oakland Zoo",
+		"lat": 37.749781,
+		"lng": -122.145738,
+		"review": "The Oakland Zoo always makes for a fun few hours. My favorite animal from when I was a kid was the Siamang Gibbon who had the loudest voice I've ever heard. He was always our first stop on any visit.",
+		"wiki": "1",
+		"fs": "0",
+		"category": ["fun", "kids"]
+	},
+	{
+		"name": "Black Diamond Mines",
+		"lat": 37.985002,
+		"lng": -121.855335,
+		"review": "One of my favorite mountain biking spots as long as it's not mid-afternoon in the middle of summer. Great place to just set out on a hike too. There's plenty to explore, including the old graveyard up on the hill. And, of course, a tour of the Hazel Atlas mines is a must-see at least once.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["outdoors"]
+	},
+	{
+		"name": "The Trappist",
+		"lat": 37.800497,
+		"lng": -122.27420,
+		"review": "My Belgian blood draws me to this place like a mosquito to a bug light. If you're looking for some Bud Light, this is not the place for you.<br/><br/>Possibly the best place for beer in the entire Bay Area. Although named after the legendary trappist monastery brewers in Belgium, the Trappist serves up a variety of kick-butt beers from around the world.<br/><br/>The atmosphere and food are top-notch as well. This is my happy place!",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Craneway Pavilion",
+		"lat": 37.909424,
+		"lng": -122.35864,
+		"review": "The Craneway is the old 1931 Ford Motor plant repurposed into a state-of-the-art venue for concerts and other special events. The view of the bay and city skyline is stunning, especially in the evening.<br/><br/>The premier event held here, in my opinion, is the pre-Independence Day fireworks show, which has become an annual event on July 3. The East Bay Symphony orchestra plays for a few hours while you sit on your blanket and picnic inside the huge building. Then, everyone shuffles outside to the edge of the bay for the fireworks show.<br/><br/>Right next door is the Rosie the Riveter museum, a very well put together tribute to the women workers of WWII.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["arts", "fun"]
+	},
+	{
+		"name": "Livermore Municipal Airport (LVK)",
+		"lat": 37.695962,
+		"lng": -121.818124,
+		"review": "My home base airport for many years when I was a member of the Flying Particles Club. My plane of choice was N9658K which I flew all over the state, including many 'Bay Tour' routes over the bay, over the Golden Gate Bridge, and then down the Pacific Coastline down to Half Moon Bay for lunch.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["fun"]
+	},
+	{
+		"name": "Half Moon Bay Airport",
+		"lat": 37.513858,
+		"lng": -122.495023,
+		"review": "Among my favorite airplane destinations in Northern California. Half Moon Bay's got it all: beauty, location, and great places to eat. I usually fly straight down the coast to get here, which makes for a relaxing flight with incredible views, rather than deal with hectic SFO and OAK airspace. The winds sometimes come down the coast so strong that the plane barely moves when the wheels touch down. It freaks my passengers out a bit, but it's not a tough airport to land at.<br/><br/>My friends often like to eat at the Half Moon Bay Brewery, which is a short walk from the airfield. I drool over the sight of fresh beer while I sip on my iced tea. After all, someone's got to fly us back home.",
+		"wiki": "1",
+		"fs": "0",
+		"category": ["fun"]
+	},
+	{
+		"name": "Downtown Palo Alto",
+		"lat": 37.446022,
+		"lng": -122.161488,
+		"review": "A great destination to go stroll around, shop, and eat. It's still got a small-town feel.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["fun"]
+	},
+	{
+		"name": "Kirby Cove",
+		"lat": 37.827192,
+		"lng": -122.490005,
+		"review": "The best little secluded beach in the Bay Area. It's a bit of a hike down from the road, but worth it. Once on the beach, you find yourself practically right under the Golden Gate Bridge with an incredible view of the NW side of the city all the way to downtown San Francisco.<br/><br/>I've come down here at night with a ton of photo equipment strapped to my back to capture the super moon rising over the city. A sight I'll never forget!",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["ourdoors"]
 	}
 ];
