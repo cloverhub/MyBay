@@ -1,3 +1,4 @@
+/* the locations array in JSON format--I use double quotes here so I don't need to escape out apostrophes */
 var locations = [
 	{
 		"name": "De Young (Museum)",
@@ -87,7 +88,7 @@ var locations = [
 		"review": "I have to admit, I liked the old CAS better than the new one, but the times they are a changin' I suppose. There was something about that old custom-built planetarium projector with all the little doodads protruding out at every angle. It was a one-of-a-kind mechanical marvel. I hear it's crated up somewhere in one of the Smithsonian warehouses now. The new Morrison Planetarium is really a movie rather than a true planetarium show, but they always have a good show.<br/><br/>Nevertheless, I've been a member since opening day and we enjoy the member's nights and other special events.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["science", "kids"]
+		"category": ["sci-tech", "kids"]
 	},
 	{
 		"name": "Buchanan Field Airport",
@@ -123,16 +124,16 @@ var locations = [
 		"review": "This place has a Neiman Marcus Kitchen Computer for crying out loud. I mean this 100 pound, $11k monstrosity had a built-in cutting board. The idea is that you buy this contraption, send the wife to a two week class to learn how to program it in binary code with nothing more than blinking lights as output, and then let it figure out some gourmet meals for your wife to cook. This and many other exhibits at the CHM really make you realize how far computers have come and the awkward years of trying to figure out what useful things a home computer could do.<br/><br/>I'm not sure if a non-geek would enjoy a visit here, but I just eat this stuff up. I love it.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["science"]
+		"category": ["sci-tech"]
 	},
 	{
 		"name": "Stow Lake Boat House",
 		"lat": 37.770203,
 		"lng": -122.477412,
-		"review": "Review coming soon...",
+		"review": "A row around Stow Lake always makes for a fun Sunday afternoon. Watch out for those low branches!",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["workout", "outdoors"]
+		"category": ["outdoors"]
 	},
 	{
 		"name": "Builders Booksource",
@@ -141,7 +142,7 @@ var locations = [
 		"review": "I always wanted to pretend I was an architect (or city urban planner for that matter) and Builder's scratches that itch. So what if the only cities I'm building are in SimCity? This is one of those bookstores that I love to browse because I find something new every time I walk in.<br/><br/>About a third of the store is dedicated to technical books specific to code, contractors, building regulations, etc., but the rest of the store has the fun stuff. You can find nice hardbound with glossy paper books on architecture, urban planning, design, structural engineering, and even local interest with some independently-published local author books. They even have good kids books and a few non-book gift-type things.<br/><br/>This is my go-to refuge whenever I'm brought along on shopping trips to 4th Street. And I almost always walk out with gift to myself.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["gear"]
+		"category": ["stuff"]
 	},
 	{
 		"name": "Exploratorium",
@@ -150,7 +151,7 @@ var locations = [
 		"review": "I practically grew up in the Exploratorium. I didn't realize it when I was 7 years old, but I was already grasping the fundamentals of physics, biology, geology, thermodynamics, and botany. I could solve binary arithmetic problems and explain to my friends why a bicycle stands up. Things like computer programming and physics were a breeze later on in high school.<br/><br/>Although it's no longer donation-only, today's Exploratorium is better than ever. I've had a family membership for years and bring the family in often. This is one of the best places around to bring kids--they will have fun and can't help but learn along the way. When the new location first opened, I missed the old dark, dank, cavernous feel of the original location, but the location, capacity, and overall atmosphere of the new location seems natural now. The food and waterfront view aren't bad either.<br/><br/>I've been to hands-on science museums around the world that have followed the Exploratorium's model, but the Exploratorium is the original and still the best.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["science"]
+		"category": ["sci-tech"]
 	},
 	{
 		"name": "Montclair Egg Shop",
@@ -223,15 +224,6 @@ var locations = [
 		"wiki": "1",
 		"fs": "1",
 		"category": ["workout", "outdoors"]
-	},
-	{
-		"name": "Fort Point",
-		"lat": 37.810712, 
-		"lng":-122.476916,
-		"review": "Review coming soon...",
-		"wiki": "0",
-		"fs": "1",
-		"category": ["explore"]
 	},
 	{
 		"name": "Playland-Not-At-The-Beach",
@@ -312,7 +304,7 @@ var locations = [
 		"review": "I was first drawn in because I was curious to see what had become of the old Bank of Italy building. I was not disappointed. They've done some serious remodeling, but many of the original architectural elements and decorations of the original bank are still intact. Most of the ground floor is restored and original and you can go downstairs and wander the vaults with all the safe deposit boxes opened up.<br/><br/>I picked up a pair of 1000 Mile Boots. The salesman was great and, before I knew it, he had a dozen varieties of boots laid out in front of me without once returning with news of being out of stock of anything.<br/><br/>I probably walked past this place 50 times before I realized I could go inside. All you see from the street is a security guard at a desk right at the front door which isn't exactly a welcoming sight for a store, but apparently the guard is just there to check people in to the social club upstairs.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["gear"]
+		"category": ["stuff"]
 	},
 	{
 		"name": "The Walt Disney Family Museum",
@@ -348,7 +340,7 @@ var locations = [
 		"review": "It's sort of a shame that the good old Hornet is tucked away in the far corner of Alameda, hidden from tourists (and probably even locals who don't know about it). It just doesn't enjoy the front-and-center glory of its cousin the Midway down in San Diego gets, but that's part of the Hornet's charm.<br/><br/>The Hornet is brimming with history, from WWII to retrieving the Apollo 11 astronauts, and it's the sort of place you can climb aboard and just go explore. There are little nooks and crannies everywhere to check out.<br/><br/>Even though the Hornet is not on center stage in the Bay Area, it certainly should be.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["science", "explore"]
+		"category": ["sci-tech", "explore"]
 	},
 	{
 		"name": "William Stout Architectural Books",
@@ -357,7 +349,7 @@ var locations = [
 		"review": "In today's modern world of ebooks, there's still nothing like a stack of nice and heavy hard-covered architectural books on the coffee table, and this is the place to get them. Although I'm no architect and only a pretend urban planner, this is my favorite bookstore in the city to peruse. Stout has a good collection of local SF books, many of which I don't seem to run into at other bookstores. I love going through the transportation section and the modern architecture stuff as well.<br/><br/>The only problem is I often walk out having to lug a 20 pound book the size of a briefcase all the way back home.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["gear"]
+		"category": ["stuff"]
 	},
 	{
 		"name": "Mount Diablo State Park",
@@ -456,7 +448,7 @@ var locations = [
 		"review": "Once a staple destination for my elementary school fieldtrips and YMCA summer camp outings, the old Chabot had its charm, but it was always the same routine: you unload out of the school bus, the guy in the lab coat bangs the little rocket on the cable with his hammer, then they file you into the tiny planetarium.<br/><br/>This is not your father's Chabot anymore. The new place is a state-of-the-art facility with much more to do. The exhibits are always interesting and the kids love it.<br/><br/>But the best experience at Chabot is on those clear Friday nights when all the amateur astronomers are set up and the big scopes are locked and loaded. There's no better place in the Bay Area to go stargazing with plenty of experts to explain exactly what you're looking at!",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["science", "kids"]
+		"category": ["sci-tech", "kids"]
 	},
 	{
 		"name": "Niles Canyon Railway",
@@ -619,5 +611,185 @@ var locations = [
 		"wiki": "0",
 		"fs": "1",
 		"category": ["grub"]
+	},
+	{
+		"name": "Hot Italian",
+		"lat": 37.841116,
+		"lng": -122.293554,
+		"review": "When hunger struck, we randomly pulled in in the Market Place lot (after all, I really have no idea where to look for food in Emeryville). Glancing in the window, I was immediately drawn to the red Bianchi, a spitting image of my old racing Bianchi, hanging on the wall among other fine Italian racing bikes. Intrigued, I insisted we must head inside.<br/><br/>We took seats at one of the long family-style tables and in minutes I had a pint of ice-cold Racer 5 plunked down in front of me. Ordered a Briatore calzone. Admired the handlebar clothes racks on the wall while waiting (yes I love all things bicycle). A soccer match played on the giant projection screen behind me. The smell of pizzas and calzones baking away in the huge steel oven in the exposed kitchen had me drooling.<br/><br/>Then it arrived. Different looking and different tasting than your average calzone, but I mean different in a good way: all puffy, mangled, and full of delicious fondue-like cheeses with a smoked flavor. Holy Cipollini, that is one delicious calzone! Another Racer 5 please!<br/><br/>I became an instant fan of Hot Italian that night. Next time I find myself in Emeryville, I know exactly where I'm heading when the hunger hits. (Can we get one in San Francisco please??)",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "The Star",
+		"lat": 37.814280,
+		"lng": -122.246474,
+		"review": "I'm a big fan of the Little Stars in SF and the one in Albany, but the Star leaves out the word 'little' for a reason: it actually has room inside. Instead of sitting in the laps of your neighboring diners, you can stretch out in comfort at the Star.<br/><br/>Whenever the topic of Little Star comes up, the first thought bubble that appears over my head is the ice-cold Racer 5 IPA while the pizza's in the oven. But the Star is lacking my beloved Racer 5, but they have another IPA or two which aren't all that shabby.<br/><br/>These are the best cornmeal crust deep dish pizzas around. But I think it's time to come up with another name for 'Chicago-style pizza' to put an end to the Chicago vs. New York debate and calm Jon Stewart down. Just call them Chicago Pies and be done with it already.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Kirala Japanese Restaurant",
+		"lat": 37.859327,
+		"lng": -122.266731,
+		"review": "My sushi snob friends gravitate to this place from cities away. I think I've tried everything on the menu by now. It is definitely some of my favorite sushi in the bay area. The eel, salmon, and tuna based rolls are some of my favorites. Really good stuff from the robota grill too.<br/><br/>Sit back and enjoy an ice cold draft asahi from the bar while you wait for your table.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "IFLY SF Bay",
+		"lat": 37.598607,
+		"lng": -122.065585,
+		"review": "I was intrigued by indoor skydiving ever since I was a young lad when I saw it on Evening Magazine circa 1982. I always envisioned a huge cylindrical chamber full of people in Michelin Man type outfits flying around bumping into each other. It's not really like that--the chamber is small and transparent, and it's only you and your instructor in there (with a bunch of onlookers watching from the bleachers or with their noses pressed up against the glass). Oh, and also very fast--you only get 2 one-minute sessions.<br/><br/>It's definitely an interesting experience, albeit a short one. I felt like just when I was starting to get the hang of it, my instructor grabbed me and tossed me out the exit opening. Maybe that's the way to get you to come back for more. I really wanted to spend a good half hour in there...but I'm sure I'll be back again sometime.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["fun"]
+	},
+	{
+		"name": "Taqueria La Cumbre",
+		"lat": 37.764568,
+		"lng": -122.421686,
+		"review": "Among the elite powerhouse burritos of the Mission. The burrito is big and hefty and filled with good solid tasty ingredients. The chicken was pulled off the grill and chopped right before my eyes. As a whole, the burrito is a bit messy to eat as it drips right through the foil, but it's definitely finger lickin' good.<br/><br/>Inside: the place probably has more character than any other taqueria in the Mission. Sort of a mix between the Mexican version of a Hard Rock and a TGI Fridays. Everyone working there is friendly too.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Mexico au Parc",
+		"lat": 37.782204,
+		"lng": -122.393594,
+		"review": "I've been coming to this place for quite some time and it's always been a decent burrito. Over the years, the burrito has evolved from an El Balazo imitation to its own brand. The food is fresh but expensive.<br/><br/>TIP: order your food on the right, then go to the line at the register on the left to pay. The lack of signage causes some people to stand in the wrong line.<br/><br/>And if the tables inside are all full, you can always go sit in South Park where a random dog will inevitably take a break from playing to sniff his way over to you looking for a handout.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Tommy’s Joynt",
+		"lat": 37.785555,
+		"lng": -122.421628,
+		"review": "A San Francisco landmark, right smack dab in the intersection of two of SF's biggest trans-city arteries. I can't imagine Van Ness Ave without this beacon of tradition brightening up the street.<br/><br/>I think I first ate here when I was about 7 years old. You can get lost in the sea of garagesale-esque memorabilia decorating every square inch of the walls and ceilings.<br/><br/>The clientele seems to always be male-dominated with the unsophisticated and gritty hof brau-type atmosphere (well at least in my experience the ladies seem a bit daunted by the whole scene).<br/><br/>The food is simple and the beers are plenty. The meat is excellent and all the sandwiches I've had are nothing more than a cut of meat on a plain white roll. The roll functions like a sponge to soak up all the juice from the meat. Delicious.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Nick’s Crispy Tacos",
+		"lat": 37.796178,
+		"lng": -122.422129,
+		"review": "We tend to gravitate to Nick's whenever I'm in the neighborhood. It's a refreshing change to go to a burrito/taco place and relax in big, comfy, spacious booths with a cold beer and have the food delivered to your table, all while enjoying whatever games are on the TVs surrounding the bar.<br/><br/>The burritos are wrapped with steamed, doughy tortillas and packed with freshness. The guacamole is excellent. They need to add pinto beans as an option, however.<br/><br/>Since the place doubles as a nightclub, the floors tend to be a bit sticky. And cash-only sucks.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "El Farolito",
+		"lat": 37.752827,
+		"lng": -122.411222,
+		"review": "Definitely among the elite ranks of powerhouse burritos in the city. Nice, hefty, and delicious, like a mission burrito should be.<br/><br/>The whole restaurant smelled like el baño though, like an overpowering outhouse-chemical type of smell...whoa.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "King of Thai Noodle House",
+		"lat": 37.798630,
+		"lng": -122.407103,
+		"review": "Not the world's greatest Thai food, but it is good. The pad see ew noodles are a little too sweet for my taste and the portions aren't huge. So 3 stars for the food.<br/><br/>But this place earns an extra star for low prices--I mean wow what a deal. And $2 pints of ice cold Sierra Nevada! You can't beat that.<br/><br/>There are plenty of nice TVs all around too, although the sign on the front door warns: 'We are a Thai restaurant allowed to have TVs. Please don't call us a sports bar.'' Ok, fair enough--I will make sure to order food if I happen to stop in for beers and Giants sometime.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Goat Hill Pizza",
+		"lat": 37.762314,
+		"lng": -122.397744,
+		"review": "There's a front room and a back room, with the better views in the back room. We have another Goat Hill closer to home, but we seem to come here more often--maybe it's the view and the relaxed pace of Potrero Hill.<br/><br/>While waiting for your pizza, enjoy a pint of cold Anchor Steam draft, brewed right down the street. The salads are not fancy, but are hearty-sized and good. The soups are rather plain with various pizza toppings added in. The staff is always nice. A pianist usually comes in in the early evening for some live music at the piano by the front door.<br/><br/>Goat Hill pizzas are delicious. They are a bit different because they use sourdough bread which sends it to the crunchy side of the doughiness spectrum.<br/><br/>As I recommend with any pizza place, harness the power of pi and always order the largest size pizza on the menu to get the best value. You'll reap the rewards of your mathematical savviness while enjoying leftover pizza the next day.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Shalimar Restaurant",
+		"lat": 37.786312,
+		"lng": -122.412871,
+		"review": "You gotta know what you're getting into when you come here. The place is dirty, disorganized, smoky as hell, and in the worst part of town, but the food is authentic as can be and unbelievably good. You're on your own to try to stake out a table, and you order and pay up at the counter.<br/><br/>Had the chicken tikka masala, kabli chana, and menthi, all of which was delicious. The naan is thick and doughy and really tasty. You get chai tea for free, or try the mango laasi. If you want alcohol, bring your own stuff in from the corner liquor store.<br/><br/>The staff isn't exactly talkative or friendly, but they sure know how to cook. Sort of the soup nazis of Indian food here.<br/><br/>Just plan to get home and wash the smoke out your clothes and air out your jacket, because every fiber of your clothes will reek, but it's all worth it.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Muir Woods National Monument",
+		"lat": 37.895135,
+		"lng": -122.578128,
+		"review": "One of the most beautiful hiking spots in the Bay Area. Some of the trails can take the better part of a day, but every trail is well worth it.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["outdoors"]
+	},
+	{
+		"name": "Fort Point",
+		"lat": 37.810603,
+		"lng": -122.476999,
+		"review": "When you alter the blueprints for the world's greatest bridge to throw in a steel arch in order to avoid demolishing a place just because it's beautiful, it must be a special place.<br/><br/>Good old Fort Point defended our bay during the Civil War--no invasions were even attempted thanks to the intimidating might of the fort.<br/><br/>I've never grown tired of trips to Fort Point. It is packed with history and always fun to explore.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["explore", "outdoors"]
+	},
+	{
+		"name": "San Francisco Bay",
+		"lat": 37.818244,
+		"lng": -122.436079,
+		"review": "If not for three courageous women in the 1960s forming the 'Save San Francisco Bay Association,' our magnificent bay would have been mostly if not totally filled in with landfill by now.<br/><br/>I grew up with a routine of Sunday morning sailboat trips around the bay with my relatives, always to different locations. One day it would be dropping anchor and rowing the dinghy over to Angel Island and another it would be heading through the Golden Gate just enough to get a feel of the ocean before tacking around to come back in to the bay's safety. I learned to love and respect the bay.<br/><br/>When I grew up and took sailing lessons for myself, I would learn all the nuances and challenges of the bay. It's considered one of the most challenging places on Earth to learn to sail. But worth it.",
+		"wiki": "1",
+		"fs": "0",
+		"category": ["outdoors"]
+	},
+	{
+		"name": "The Delta",
+		"lat": 38.044898,
+		"lng": -121.796169,
+		"review": "I spent countless weekends as a kid going out on boats of all sizes for Delta explorations. From waterskiing, to fishing, to island hopping, and to exploring the mothball fleet, the Delta has just become a small part of me. There are beautiful spots and ugly spots, but a trip on the Delta always seems to be an adventure.",
+		"wiki": "0",
+		"fs": "0",
+		"category": ["outdoors"]
+	},
+	{
+		"name": "Point Reyes National Seashore",
+		"lat": 38.069887,
+		"lng": -122.917847,
+		"review": "Point Reyes is one of the natural jewels of the Bay Area. Our big 5th grade trip was in a camp in Point Reyes where we learned to appreciate the majesty of tide pools, beaches, and trails. Although I've only camped in Point Reyes a few times since, there's plenty to do during a day drive. We never miss the lighthouse and beaches and occasionally indulge in some fresh oysters.",
+		"wiki": "1",
+		"fs": "0",
+		"category": ["ourdoors", "explore"]
+	},
+	{
+		"name": "Oracle Arena",
+		"lat": 37.750261,
+		"lng": -122.203004,
+		"review": "Home of the NBA Champion Golden State Warriors! None of the arena's shortcomings or horrible concert acoustics even matter after that.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["fun"]
+	},
+	{
+		"name": "Candlestick Park",
+		"lat": 37.713648,
+		"lng": -122.386180,
+		"review": "The 49ers are gone. Out of San Francisco. They may as well be called the Santa Clara 49ers now. They’ve got a shiny, high-tech wonderland to play in, where the focus seems to be on everything but the game. Fans are literally dying in the heat, traffic is worse than ever, and the 49ers are off to a grim start in the new digs.<br/><br/>In late 2014, I had the opportunity to photograph good old Candlestick Park in detail during the early stages of light demolition work. From the dark depths of the musky under passages to the soaring sky-high press box, and from the cramped locker rooms to the cold secret jail cells, I got it all. In a few decades, who knows–the whole collection might be interesting to someone. I’ll just tuck the photos away until then.<br/><br/>For me, it was my final goodbye to the battlegrounds of legends that I grew up idolizing. Candlestick was my choice destination on many a Sunday afternoon from the early 1980s to 2013 (and a few lucky Monday night games where I snuck out of school early to head to the Stick). Of course our Giants abandoned the crumbling, moss-covered structure years ago, and I don’t really miss the Stick from a baseball perspective. They’re in a better place now.<br/><br/>A month after my photo spree of the empty Stick, I sent my drone skyward for one final peek inside. It looks like there are quite a few seats left (you can buy a pair for your man cave). The nearly-dead turf has sprung back to life from the recent downpours. I interweaved a few of my 1000+ photos of the empty complex with the drone’s eye view.<br/><br/>I've been filming the demolition progress every Sunday morning in 4k video from my DJI Inspire drone. The video will appear on my website when demolition is complete.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["fun"]
+	},
+	{
+		"name": "Bernal Heights Park",
+		"lat": 37.743237,
+		"lng": -122.414461,
+		"review": "One of my favorite spots for a light hike. The view is truly spectacular and never gets old.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["outdoors"]
 	}
 ];

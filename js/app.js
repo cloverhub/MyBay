@@ -299,7 +299,6 @@ var ViewModel = function() {
 var Map = {
 	map: {},
 	infoWindow: new google.maps.InfoWindow({
-			maxWidth: 240
 		}),
 	options: {
 		center: {lat: 37.8, lng: -122.3},
