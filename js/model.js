@@ -370,15 +370,6 @@ var locations = [
 		"category": ["explore"]
 	},
 	{
-		"name": "Santa Cruz Beach Boardwalk",
-		"lat": 36.964226,
-		"lng": -122.018022,
-		"review": "There's enough surviving nostalgia at the boardwalk to still make it a fun place and maintain the old seaside amusement park feel from a century ago. The Giant Dipper and carousel are meticulously-maintained and remain absolute classics.",
-		"wiki": "1",
-		"fs": "1",
-		"category": ["fun", "kids"]
-	},
-	{
 		"name": "Marina Green",
 		"lat": 37.806375,
 		"lng": -122.437710,
@@ -739,11 +730,11 @@ var locations = [
 		"category": ["outdoor"]
 	},
 	{
-		"name": "The Delta",
+		"name": "Sacramento–San Joaquin River Delta",
 		"lat": 38.044898,
 		"lng": -121.796169,
 		"review": "I spent countless weekends as a kid going out on boats of all sizes for Delta explorations. From waterskiing, to fishing, to island hopping, and to exploring the mothball fleet, the Delta has just become a small part of me. There are beautiful spots and ugly spots, but a trip on the Delta always seems to be an adventure.",
-		"wiki": "0",
+		"wiki": "1",
 		"fs": "0",
 		"category": ["outdoor"]
 	},
@@ -824,7 +815,7 @@ var locations = [
 		"lat": 37.909424,
 		"lng": -122.35864,
 		"review": "The Craneway is the old 1931 Ford Motor plant repurposed into a state-of-the-art venue for concerts and other special events. The view of the bay and city skyline is stunning, especially in the evening.<br/><br/>The premier event held here, in my opinion, is the pre-Independence Day fireworks show, which has become an annual event on July 3. The East Bay Symphony orchestra plays for a few hours while you sit on your blanket and picnic inside the huge building. Then, everyone shuffles outside to the edge of the bay for the fireworks show.<br/><br/>Right next door is the Rosie the Riveter museum, a very well put together tribute to the women workers of WWII.",
-		"wiki": "1",
+		"wiki": "0",
 		"fs": "1",
 		"category": ["arts", "fun"]
 	},
@@ -898,7 +889,7 @@ var locations = [
 		"review": "A great hands-on place to learn all about science. I came here many times as a kid. Some of the stuff seemed a bit on the 'grown-up' side when you're a kid but I was learning all along. There used to be experiments you could do with mazes and live mice which were always fun. The whole place has improved greatly over the years and is a great place for kids now. And go scale the whale when you're done!",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["sci-tech"]
+		"category": ["sci-tech", "kids"]
 	},
 	{
 		"name": "Lafayette Reservoir",
@@ -907,6 +898,6 @@ var locations = [
 		"review": "When I was a lad, this seemed to be the default destination for the YMCA summer camp when they couldn't come up with anywhere else to go. We spent so many days fishing on the lake, rowing, and playing capture the flag in the poison oak-infested hills. I lost count of how many times the camp counselors had to dig fishing hooks out of kids' arms from wild-casting. We'd camp for the night every once in a while, with plenty of Kumbaya to go around.<br/><br/>I usually head up here now for a change-of-pace jog around the lake.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["outdoor"]
+		"category": ["outdoor", "kids"]
 	}
 ];

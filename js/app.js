@@ -182,6 +182,10 @@ var ViewModel = function() {
 				baseUrl: 'https://api.foursquare.com/v2/venues/'
 			};
 
+			var foursquareRequestTimeout = setTimeout(function() {
+				self.connectionError(true);
+			}, 6000); // set Foursquare error status after 6 seconds
+
 			$.ajax({
 				url: foursquareApi.baseUrl+'search?ll='+location.lat()+','+location.lng()+'&intent=match&name='+location.name()+'&client_id='+foursquareApi.clientId+'&client_secret='+foursquareApi.clientSecret+'&v='+foursquareApi.ver
 			})
@@ -251,19 +255,19 @@ var ViewModel = function() {
 					location.photo8 = null;
 					self.selectedLocation(location);
 				}
+				clearTimeout(foursquareRequestTimeout); // clear the Foursquare timeout
 			});
 
 			//***************************************************************** Call Wikipedia API
 			var wikiRequestTimeout = setTimeout(function() {
 				self.connectionError(true);
-			}, 6000); // set error status after 6 seconds
+			}, 6000); // set wiki error status after 6 seconds
 			
 			$.ajax({
 				url: 'http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=' + location.name() + '&limit=1&namespace=0&format=json',
 				dataType: "jsonp"
 			})
 			.done(function(wikiData) {
-
 				var articleList = wikiData;
 				var articleTitle = articleList[1];
 				var articleSnippet = articleList[2];
@@ -274,7 +278,7 @@ var ViewModel = function() {
 				if (location.wiki() === '1') {
 					location.wikiSummary = ko.observable(articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a>');
 				}
-				clearTimeout(wikiRequestTimeout); // clear the timeout
+				clearTimeout(wikiRequestTimeout); // clear the wiki timeout
 			});
 		}
 		// if the location has data
