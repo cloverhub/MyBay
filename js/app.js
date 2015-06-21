@@ -38,6 +38,11 @@ locations.sort(function(el1,el2){
 	return compare(el1, el2, "name");
 });
 
+// 'loading' indicator when page loads
+$(window).load(function() {
+	$('#loading').hide();
+});
+
 // declare the wikiSummary variable
 var wikiSummary;
 
@@ -259,27 +264,34 @@ var ViewModel = function() {
 			});
 
 			//***************************************************************** Call Wikipedia API
-			var wikiRequestTimeout = setTimeout(function() {
-				self.connectionError(true);
-			}, 6000); // set wiki error status after 6 seconds
-			
-			$.ajax({
-				url: 'http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=' + location.name() + '&limit=1&namespace=0&format=json',
-				dataType: "jsonp"
-			})
-			.done(function(wikiData) {
-				var articleList = wikiData;
-				var articleTitle = articleList[1];
-				var articleSnippet = articleList[2];
-				var wikipediaUrl = 'http://en.wikipedia.org/wiki/' + articleTitle;
-				location.wikiInfo = ko.observable(articleSnippet);
-				location.wikiUrl = ko.observable(wikipediaUrl);
-				// check to see if should fire request to wikipedia, if yes then do it
-				if (location.wiki() === '1') {
-					location.wikiSummary = ko.observable(articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a>');
-				}
-				clearTimeout(wikiRequestTimeout); // clear the wiki timeout
-			});
+			// check to see if should fire request to wikipedia, if yes then do it
+			if (location.wiki() === '1') {
+				$("#loading").ajaxStart(function(){
+					$(this).show();
+				}).ajaxStop(function(){
+					$(this).hide();
+				});
+
+				var wikiRequestTimeout = setTimeout(function() {
+					self.connectionError(true);
+				}, 6000); // set wiki error status after 6 seconds
+				
+				$.ajax({
+					url: 'http://en.wikipedia.org/w/api.php?action=opensearch&format=json&search=' + location.name() + '&limit=1&namespace=0&format=json',
+					dataType: "jsonp"
+				})
+				.done(function(wikiData) {
+					
+						var articleList = wikiData;
+						var articleTitle = articleList[1];
+						var articleSnippet = articleList[2];
+						var wikipediaUrl = 'http://en.wikipedia.org/wiki/' + articleTitle;
+						location.wikiInfo = ko.observable(articleSnippet);
+						location.wikiUrl = ko.observable(wikipediaUrl);
+						location.wikiSummary = ko.observable(articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a>');
+					clearTimeout(wikiRequestTimeout); // clear the wiki timeout
+				});
+			}
 		}
 		// if the location has data
 		else {

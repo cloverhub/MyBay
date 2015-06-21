@@ -275,7 +275,7 @@ var locations = [
 		"lat": 37.778540,
 		"lng": -122.38915837,
 		"review": "Best ballpark in the country, hands down. There's nothing like the atmosphere, views, and location of AT&T Park.<br/><br/>Aside from countless Giants games I've been to, I've been to football games, corporate parties, and other events here. It's one of the best venues around.<br/><br/>Unless you're making an entire day out of tailgating, it's ridiculous to even consider driving here. There are plenty of public transit options.",
-		"wiki": "1",
+		"wiki": "0",
 		"fs": "1",
 		"category": ["fun"]
 	},
