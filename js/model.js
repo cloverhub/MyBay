@@ -70,7 +70,7 @@ var locations = [
 		"review": "I've walked over it more than 100 times, ridden my bike over it even more times, sailed under it, flown my plane over it, and have taken over 10,000 photos of it from every possible angle. This bridge is an Art Deco masterpiece, designed and built to absolute perfection. If you haven't done so, do yourself a favor and read a book about the history of the design (or take the shortcut and watch the Discovery Channel/PBS shows) and you'll appreciate the details of the bridge in a new light.<br/><br/>I've been inside the Great Pyramid of Giza, to the top of the Eiffel Tower, and over the Hoover Dam, but without a doubt, the Golden Gate Bridge is the greatest man-made structure on the face of the earth.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "Musée Mécanique",
@@ -106,7 +106,7 @@ var locations = [
 		"review": "Sutro Baths opened in 1896 as the world's largest indoor swimming establishment featuring lavish pools, tall waterslides, a concert hall, and ice skating rink. It burned down 70 years later. If you're familiar with the layout of Sutro Baths in its heyday, you can still picture where everything once was by gazing at the ruins. You can even see where the old aerial cable tramway once docked.<br/><br/>Although the crumbling brick stairway going up the cliff that I once climbed all over as a kid is now off-limits, you can still climb around all the concrete pool walls and foundations and explore dark caves that pierce the tall cliffs near the sea.<br/><br/>Afterward, head up to the historic Cliffhouse for lunch or drinks and see tons of photos and memorabilia from the glory days of Sutro Baths. The modern Cliffhouse isn't as fun as its previous form when it had the all the century-old arcade games from Sutro Baths and Playland, but at least they have nostalgic remnants.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["explore", "outdoors"]
+		"category": ["explore", "outdoor"]
 	},
 	{
 		"name": "Zacharys Pizza",
@@ -133,7 +133,7 @@ var locations = [
 		"review": "A row around Stow Lake always makes for a fun Sunday afternoon. Watch out for those low branches!",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "Builders Booksource",
@@ -205,7 +205,7 @@ var locations = [
 		"review": "A great easy-paced day hike smack dab in the middle of the bay with spectacular views in all directions.<br/><br/>The island is rich in history, including the sobering reminders of our country's darker times of years past.<br/><br/>The only downside to an Angel Island visit is the inevitable last-minute rush to make it to the departing ferry. I have no idea what happens when one misses the last ferry off the island.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "Drawbridge, CA",
@@ -214,7 +214,7 @@ var locations = [
 		"review": "I set out for an impromptu trek to Drawbridge one warm winter afternoon, completely unprepared for an urban exploration journey. As the sun began to dip toward the horizon, I set off down the rocky trail with a camera and tripod slung over my shoulder. As the miles wore on, the sights and city noise of Fremont diminished on the horizon as the nature of the bay’s magnificent wetlands came alive... (full story on my website)",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["explore", "outdoors"]
+		"category": ["explore", "outdoor"]
 	},
 	{
 		"name": "Kezar Stadium",
@@ -223,7 +223,7 @@ var locations = [
 		"review": "When your feet have had enough punishment pounding the concrete city sidewalks, give them the rejuvenating treatment of the Kezar track. The modern track and rest of the stadium are impeccably maintained. The bleachers are perfect for sprints too.<br/><br/>Listen closely for distant historic echoes of 49er fans cheering alley-oop touchdown passes from YA Tittle to RC Owens.<br/><br/>Just stay out of lane 1 (unless you're running sub 6 minute miles) and respect the other runners and track teams who often train there. And taking a single step onto the grass is a big no-no.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "Playland-Not-At-The-Beach",
@@ -250,7 +250,7 @@ var locations = [
 		"review": "Sure it's no tropical Hawaiian beach, but it's our beach and I love it. The water's cold but refreshing on a hot, sunny day. Ocean Beach is also great for dog swimming and kite flying. A walk over to the Beach Chalet or up to the Cliff House for a beer (or two) and bite to eat is always in order after a day trip to the beach.<br/><br/>But the beach comes alive as the sun dips into the Pacific and the pastel houses along the Great Highway glow. I've been to and even set up a few bonfire parties on the beach, which never fail to be good times. Just keep the flame height lower than the beach wall or you get a visit from the friendly ranger.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "San Francisco Cable Car Museum",
@@ -268,7 +268,7 @@ var locations = [
 		"review": "It's always sunny in Dolores Park! When Karl the Fog has you down, you can escape the freezing dankness of the rest of the city and come to the miracle spot where the sun always seems to burn through. And while picnicking or basking in the sun, you get a great view of the fog rolling over the rest of the downtown skyline.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "AT&T Park",
@@ -286,7 +286,7 @@ var locations = [
 		"review": "My favorites go-to place for a super-intense stair running workout.<br/><br/>Start at the base of the stairs near Sansome Street and start running upward, two steps at a time. Pass Napier Lane, one of the only short boardwalk alleys left in the city where sailors were once shanghaied, then up to the spectacular Coit Tower. Walk down the neighboring Greenich Steps. Rinse, lather, repeat 4x.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "Leroy King Carousel",
@@ -322,7 +322,7 @@ var locations = [
 		"review": "One of my favorite kayak put-ins to go cruise around Alameda while the girls shop at farmers market.",
 		"wiki": "0",
 		"fs": "0",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "USS Hornet Museum",
@@ -349,7 +349,7 @@ var locations = [
 		"review": "Probably my favorite bike ride in the entire Bay Area is to the summit of Diablo, even though I'm far from a being a climber. I've ridden up 100+ times from both sides and hiked up a few times too. After an hour of climbing, there's something about that final 150 yard, 16% gradient stretch to the summit that puts the body through unthinkable excruciation, making the view from the top so much sweeter.<br/><br/>I like the mountain so much I was Race Director for the annual USA Cycling-sanctioned Mt. Diablo Hill Climb for a number of years.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "Mount Tamalpais State Park",
@@ -358,7 +358,7 @@ var locations = [
 		"review": "The Bay Area's go-to epicenter of mountain biking in my opinion. After all, Mt. Tam was the birthplace of the mountain bike and the trails and views are spectacular.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "Pigeon Point",
@@ -385,7 +385,7 @@ var locations = [
 		"review": "One of the best places in the city for a picnic, game of Frisbee, or to fly a kite. It's nice to have a giant, uncrowded rectangle of space in a big city.<br/><br/>Enjoy the sounds of the Wave Organ at the Marina Green on the jetty across from Yacht Rd near Marina Blvd and Lyon St. Designed by scientists from the Exploratorium, the concrete tubes make sea-powered music when the tide hits them.",
 		"wiki": "1",
 		"fs": "0",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "Tilden Park Merry-Go-Round",
@@ -403,7 +403,7 @@ var locations = [
 		"review": "A paradise for dogs and dog lovers. On a sunny Sunday afternoon, you'll find the number of dogs hitting quadruple digits. The canines seem to fall into their instinctual behaviors and form packs with the other dogs.<br/><br/>There are miles of path, beaches, a water inlet that water breeds love to swim, and spectacular views for the humans to enjoy.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "War Memorial Opera House",
@@ -421,7 +421,7 @@ var locations = [
 		"review": "Even though the Exploratorium is gone, the Palace of Fine Arts is the only lasting remains (although rebuilt) of the enormous 1915 Pan Pacific Exposition which took up most of Cow Hollow and the Marina District 100 years ago. Once a filthy place, the lake has been cleaned up and is nice to take a walk around or relax on the lawn and gaze at the swans and endless wedding parties coming for photos. Everything is earthquake-retrofitted now, so you can relax while standing under the massive dome. The theater makes for a great music venue too.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["outdoors", "arts"]
+		"category": ["outdoor", "arts"]
 	},
 	{
 		"name": "Point Bonita Lighthouse",
@@ -718,7 +718,7 @@ var locations = [
 		"review": "One of the most beautiful hiking spots in the Bay Area. Some of the trails can take the better part of a day, but every trail is well worth it.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "Fort Point",
@@ -727,7 +727,7 @@ var locations = [
 		"review": "When you alter the blueprints for the world's greatest bridge to throw in a steel arch in order to avoid demolishing a place just because it's beautiful, it must be a special place.<br/><br/>Good old Fort Point defended our bay during the Civil War--no invasions were even attempted thanks to the intimidating might of the fort.<br/><br/>I've never grown tired of trips to Fort Point. It is packed with history and always fun to explore.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["explore", "outdoors"]
+		"category": ["explore", "outdoor"]
 	},
 	{
 		"name": "San Francisco Bay",
@@ -736,7 +736,7 @@ var locations = [
 		"review": "If not for three courageous women in the 1960s forming the 'Save San Francisco Bay Association,' our magnificent bay would have been mostly if not totally filled in with landfill by now.<br/><br/>I grew up with a routine of Sunday morning sailboat trips around the bay with my relatives, always to different locations. One day it would be dropping anchor and rowing the dinghy over to Angel Island and another it would be heading through the Golden Gate just enough to get a feel of the ocean before tacking around to come back in to the bay's safety. I learned to love and respect the bay.<br/><br/>When I grew up and took sailing lessons for myself, I would learn all the nuances and challenges of the bay. It's considered one of the most challenging places on Earth to learn to sail. But worth it.",
 		"wiki": "1",
 		"fs": "0",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "The Delta",
@@ -745,7 +745,7 @@ var locations = [
 		"review": "I spent countless weekends as a kid going out on boats of all sizes for Delta explorations. From waterskiing, to fishing, to island hopping, and to exploring the mothball fleet, the Delta has just become a small part of me. There are beautiful spots and ugly spots, but a trip on the Delta always seems to be an adventure.",
 		"wiki": "0",
 		"fs": "0",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "Point Reyes National Seashore",
@@ -754,7 +754,7 @@ var locations = [
 		"review": "Point Reyes is one of the natural jewels of the Bay Area. Our big 5th grade trip was in a camp in Point Reyes where we learned to appreciate the majesty of tide pools, beaches, and trails. Although I've only camped in Point Reyes a few times since, there's plenty to do during a day drive. We never miss the lighthouse and beaches and occasionally indulge in some fresh oysters.",
 		"wiki": "1",
 		"fs": "0",
-		"category": ["outdoors", "explore"]
+		"category": ["outdoor", "explore"]
 	},
 	{
 		"name": "Oracle Arena",
@@ -781,7 +781,7 @@ var locations = [
 		"review": "One of my favorite spots for a light hike. The view is truly spectacular and never gets old.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "San Francisco Zoo",
@@ -808,7 +808,7 @@ var locations = [
 		"review": "One of my favorite mountain biking spots as long as it's not mid-afternoon in the middle of summer. Great place to just set out on a hike too. There's plenty to explore, including the old graveyard up on the hill. And, of course, a tour of the Hazel Atlas mines is a must-see at least once.",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
 	},
 	{
 		"name": "The Trappist",
@@ -862,6 +862,51 @@ var locations = [
 		"review": "The best little secluded beach in the Bay Area. It's a bit of a hike down from the road, but worth it. Once on the beach, you find yourself practically right under the Golden Gate Bridge with an incredible view of the NW side of the city all the way to downtown San Francisco.<br/><br/>I've come down here at night with a ton of photo equipment strapped to my back to capture the super moon rising over the city. A sight I'll never forget!",
 		"wiki": "1",
 		"fs": "1",
-		"category": ["outdoors"]
+		"category": ["outdoor"]
+	},
+	{
+		"name": "The Englander",
+		"lat": 37.721993,
+		"lng": -122.153213,
+		"review": "I spent years stuffing my face and guzzling beer here on a weekly basis after a routine grueling bike ride around Redwood Road. The Englander was the place where I was introduced to Pliny the Elder IPA and it's been a love affair ever since.<br/><br/>This is one of the best sports bars in the Bay Area and a great place to watch pro bike racing on the big screen.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Taqueria Los Pericos",
+		"lat": 37.722952,
+		"lng": -122.153490,
+		"review": "No need to go to the Mission District if you're in the East Bay when you've got Los Pericos. Delicious, huge Mission-style burritos good to the last bite. The make some mean fish tacos too, not that I would pass up a burrito for tacos.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["grub"]
+	},
+	{
+		"name": "Lake Chabot Regional Park",
+		"lat": 37.715782,
+		"lng": -122.102281,
+		"review": "I've ridden my bike around this lake close to 100 times up on Redwood Rd/Skyline. It wasn't until years later that I finally took a trip down to see what the lake was all about. We rented a row boat and had a nice (albeit exhaustingly long) row around the lake, which made for a nice day. Make sure to have plenty of food and drink aboard.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["outdoor"]
+	},
+	{
+		"name": "Lawrence Hall of Science",
+		"lat": 37.879290,
+		"lng": -122.246761,
+		"review": "A great hands-on place to learn all about science. I came here many times as a kid. Some of the stuff seemed a bit on the 'grown-up' side when you're a kid but I was learning all along. There used to be experiments you could do with mazes and live mice which were always fun. The whole place has improved greatly over the years and is a great place for kids now. And go scale the whale when you're done!",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["sci-tech"]
+	},
+	{
+		"name": "Lafayette Reservoir",
+		"lat": 37.884683,
+		"lng": -122.139235,
+		"review": "When I was a lad, this seemed to be the default destination for the YMCA summer camp when they couldn't come up with anywhere else to go. We spent so many days fishing on the lake, rowing, and playing capture the flag in the poison oak-infested hills. I lost count of how many times the camp counselors had to dig fishing hooks out of kids' arms from wild-casting. We'd camp for the night every once in a while, with plenty of Kumbaya to go around.<br/><br/>I usually head up here now for a change-of-pace jog around the lake.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["outdoor"]
 	}
 ];
