@@ -256,7 +256,7 @@ var locations = [
 		"name": "San Francisco Cable Car Museum",
 		"lat": 37.794733,
 		"lng": -122.411713,
-		"review": "Testing",
+		"review": "The cable car powerhouse draws us in like a magnet whenever we're within a few blocks. The sights, sounds, and smells of the workings of the world's greatest transportation system make for an ever-intriguing nostalgic journey back in time. Don't miss the downstairs windows where you can peer under the streets at the turning pulleys.",
 		"wiki": "1",
 		"fs": "0",
 		"category": ["arts", "fun"]
