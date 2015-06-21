@@ -266,12 +266,6 @@ var ViewModel = function() {
 			//***************************************************************** Call Wikipedia API
 			// check to see if should fire request to wikipedia, if yes then do it
 			if (location.wiki() === '1') {
-				$("#loading").ajaxStart(function(){
-					$(this).show();
-				}).ajaxStop(function(){
-					$(this).hide();
-				});
-
 				var wikiRequestTimeout = setTimeout(function() {
 					self.connectionError(true);
 				}, 6000); // set wiki error status after 6 seconds
@@ -281,7 +275,6 @@ var ViewModel = function() {
 					dataType: "jsonp"
 				})
 				.done(function(wikiData) {
-					
 						var articleList = wikiData;
 						var articleTitle = articleList[1];
 						var articleSnippet = articleList[2];
