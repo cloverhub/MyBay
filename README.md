@@ -20,12 +20,17 @@
 - Udacity help resources
 - JavaScript Array.Push Performance (Scott Logic)
 - Stackoverflow: hundreds of articles and code snippets
+- Books: A Smarter Way to Learn JavaScript, Effective JavaScript, Learning JavaScript, JavaScript: The Good Parts, JavaScript Pocket Reference
 - jQuery documentation
 - Bootstrap documentation
 - Knockoutjs documentation
 - Google Maps API documentation
 - Foursquare API documentation
 - Wikipedia API documentation
+
+## Known Bugs:
+- Wikipedia data randomly doesn't display sometimes (the data is coming across because it is console-logging). May be a Bootstrap issue.
+- Foursquare data is purposesly turned off for some locations even though the venue exists in Foursquare because Foursquare is unable to find using name and lat/lng.
 
 ## Attributions:
 - Location contact information and photos courtesy Foursquare
