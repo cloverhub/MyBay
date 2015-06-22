@@ -899,5 +899,14 @@ var locations = [
 		"wiki": "1",
 		"fs": "1",
 		"category": ["outdoor", "kids"]
+	},
+	{
+		"name": "Fort Funston",
+		"lat": 37.715161,
+		"lng": -122.502708,
+		"review": "Fort Funston was a WWI-era defense installation to protect San Francisco Bay in the early 1900s. Today it is a National Park. It's a great place for scenic trail walks along the coast and exploring the old defense batteries. Fort Funston is also the best place in the Bay Area to watch hang gliders up close. You can hear the whooosh when they fly over close above. I haven't gotten into hang gliding yet, but this is the place I'll go when I'm looking to get started.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["outdoor"]
 	}
 ];

@@ -30,6 +30,10 @@ footer {
 	text-align: center;
 }
 
+p {
+	font-size: 1.2em !important;
+}
+
 #loading {
 	width: 100%;
 	height: 100%;
@@ -113,10 +117,6 @@ input[type="checkbox"]:checked + .filter-label {
 	width: 100%;
 	opacity: .7;
 	box-shadow: 4px 4px 3px #888888;
-}
-
-.description {
-	font-size: 1.2em !important;
 }
 
 #wrapper {
