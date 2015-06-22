@@ -45,6 +45,7 @@ $(window).load(function() {
 
 // declare the wikiSummary variable
 var wikiSummary;
+var wikiInfo;
 
 //***************************************************************** Filter Object
 var Filter = function(data) {

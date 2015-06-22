@@ -39,7 +39,6 @@ footer {
 	display: block;
 	opacity: 0.7;
 	background-color: #fff;
-	z-index: 99;
 	text-align: center;
 }
 
@@ -47,7 +46,6 @@ footer {
 	position: absolute;
 	top: 10px;
 	left: 5%;
-	z-index: 98;
 }
 
 #locations-panel {
@@ -55,7 +53,6 @@ footer {
 	width: 22%;
 	top: 50px;
 	left: 5%;
-	z-index: 99;
 }
 
 #title-panel {
@@ -63,7 +60,6 @@ footer {
 	top: 435px;
 	right: 20px;
 	width: 130px;
-	z-index: 97;
 	opacity: .5;
 }
 
@@ -117,6 +113,10 @@ input[type="checkbox"]:checked + .filter-label {
 	width: 100%;
 	opacity: .7;
 	box-shadow: 4px 4px 3px #888888;
+}
+
+.description {
+	font-size: 1.2em !important;
 }
 
 #wrapper {
