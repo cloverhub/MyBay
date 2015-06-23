@@ -1,3 +1,21 @@
+// check for offline
+var run = function(){
+	if (Offline.state === 'up')
+	Offline.check();
+	Offline.options = {
+		checkOnLoad: false,
+		interceptRequests: true,
+		reconnect: {
+			initialDelay: 3
+		},
+	requests: true
+	}
+}
+
+
+
+setInterval(run, 5000);
+
 //***************************************************************** Location Object
 // this object stores data for one location using data in the model
 var Location = function(data, parent) {
