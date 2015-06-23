@@ -99,6 +99,8 @@ var ViewModel = function() {
 			ko.utils.arrayForEach(self.filters(), function(filter) {
 				if (filter.on()) tempCurrentFilters.push(filter.name());
 			});
+			// close infoWindow if filters change
+			Map.infoWindow.close();
 
 			return tempCurrentFilters;
 		});
