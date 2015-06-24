@@ -33,6 +33,7 @@ var Location = function(data, parent) {
 	// create map markers for each location
 	var marker = new google.maps.Marker({
 		position: new google.maps.LatLng(data.lat, data.lng),
+		animation: google.maps.Animation.DROP,
 		icon: 'img/marker-default.png'
 	});
 
@@ -40,6 +41,7 @@ var Location = function(data, parent) {
 	google.maps.event.addListener(marker, 'click', (function(location, parent) {
 		return function() {
 			// if marker is clicked then show the location detail
+			this.marker = null;
 			parent.showLocation(location);
 		};
 	}) (this, parent));
@@ -119,7 +121,6 @@ var ViewModel = function() {
 			});
 			// close infoWindow if filters change
 			Map.infoWindow.close();
-
 			return tempCurrentFilters;
 		});
 
@@ -127,6 +128,7 @@ var ViewModel = function() {
 		self.filteredLocations = ko.computed(function() {
 			var tempLocations = ko.observableArray([]);
 			var returnLocations = ko.observableArray([]);
+			Map.infoWindow.close();
 
 			// apply the filter
 			ko.utils.arrayForEach(self.locationList(), function(location) {
@@ -184,12 +186,14 @@ var ViewModel = function() {
 
 	// show the selected location when either an item in the location list or its map marker is clicked
 	self.showLocation = function(location) {
+		// var infoWindow = null;
 		Map.infoWindow.setContent(null);
+		location.marker.setIcon('img/marker-default.png');
 		Map.infoWindow.close(Map.map, location.marker);
 		// display the Google Maps infowindow
-		Map.infoWindow.setContent(Map.infoWindowContent.replace('%title%', location.name()).replace('%description%', location.review()));
 		Map.infoWindow.open(Map.map, location.marker);
-
+		Map.infoWindow.setContent(Map.infoWindowContent.replace('%title%', location.name()).replace('%description%', location.review()));
+		
 		// set default (unselected) marker icon
 		if (self.selectedLocation()) self.selectedLocation().marker.setIcon('img/marker-default.png');
 
@@ -328,6 +332,7 @@ var ViewModel = function() {
 
 //***************************************************************** Google Maps
 // create the Google Map
+
 var Map = {
 	map: {},
 	infoWindow: new google.maps.InfoWindow({
