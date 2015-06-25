@@ -327,7 +327,7 @@ var ViewModel = function() {
 						var wikipediaUrl = 'http://en.wikipedia.org/wiki/' + articleTitle;
 						location.wikiInfo = ko.observable(articleSnippet);
 						location.wikiUrl = ko.observable(wikipediaUrl);
-						location.wikiSummary = ko.observable('<label class="strong">Wikipedia says:&nbsp;&nbsp;</label>'+articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a>');
+						location.wikiSummary = ko.observable('<h3>Wikipedia says</h3><p>'+articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a></p>');
 					clearTimeout(wikiRequestTimeout); // clear the wiki timeout
 				});
 			}
