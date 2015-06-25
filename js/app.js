@@ -54,6 +54,7 @@ var Location = function(data, parent) {
 function compare(el1, el2, index) {
 	return el1[index] == el2[index] ? 0 : (el1[index] < el2[index] ? -1 : 1);
 }
+
 locations.sort(function(el1,el2){
 	return compare(el1, el2, "name");
 });
@@ -64,11 +65,26 @@ $(window).load(function() {
 });
 
 // collapsible info area
+function expandCollapse() {
+	$('nav').removeClass('open');
+	//$(this).toggleClass('close-btn');
+	//$('.container').toggle();
+}
+
+function infoExpand() {
+	$('nav').addClass('open');
+	$('this').addClass('close-btn');
+}
+
+function infoCollapse() {
+	$('nav').addClass('open');
+	$(this).addClass('close-btn');
+	$('.container').toggle();
+}
+
 $(document).ready(function(){
 	$('.menu-btn').click(function(){
-		$('nav').toggleClass('open');
-		$(this).toggleClass('close-btn');
-		$('.container').toggle();
+		expandCollapse();
 	})
 })
 
@@ -194,6 +210,7 @@ var ViewModel = function() {
 
 	// show the selected location when either an item in the location list or its map marker is clicked
 	self.showLocation = function(location) {
+		infoExpand();
 		Map.infoWindow.close();
 		// var infoWindow = null;
 		Map.infoWindow.setContent(null);
