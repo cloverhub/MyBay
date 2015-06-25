@@ -31,17 +31,6 @@ p {
 	font-size: 0.9em;
 }
 
-footer {
-	margin-top: 100px;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	background-color: #b2d0fb;
-	text-align: center;
-}
-
 .fixed-center {
 	width: 100%;
 	height: 100%;
