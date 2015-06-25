@@ -19,6 +19,13 @@ h5 {
 	margin-bottom: 8px !important;
 }
 
+p {
+	color: #3f3f3f;
+	font-size: 1.2em;
+	font-weight: 100;
+	line-height: 90%;
+}
+
 footer {
 	margin-top: 100px;
 	padding-top: 20px;
@@ -103,6 +110,17 @@ input[type="checkbox"]:checked + .filter-label {
 	background-color: #fff;
 	opacity: 1;
 	margin-bottom: 6px;
+}
+
+.strong {
+	font-weight: 900;
+}
+
+.horizontal-line {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #b2d0fb;
 }
 
 #search {

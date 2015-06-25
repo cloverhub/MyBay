@@ -65,7 +65,6 @@ $(window).load(function() {
 
 // declare the wikiSummary variable
 var wikiSummary;
-var wikiInfo;
 
 //***************************************************************** Filter Object
 var Filter = function(data) {
@@ -309,7 +308,7 @@ var ViewModel = function() {
 						var wikipediaUrl = 'http://en.wikipedia.org/wiki/' + articleTitle;
 						location.wikiInfo = ko.observable(articleSnippet);
 						location.wikiUrl = ko.observable(wikipediaUrl);
-						location.wikiSummary = ko.observable(articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a>');
+						location.wikiSummary = ko.observable('<label class="strong">Wikipedia says:&nbsp;&nbsp;</label>'+articleSnippet+'<a href="'+wikipediaUrl+'" target="_blank"> ...more from Wikipedia</a>');
 					clearTimeout(wikiRequestTimeout); // clear the wiki timeout
 				});
 			}
@@ -346,7 +345,7 @@ var Map = {
 		backgroundColor: '#B2D0FB'
 	},
 	// set the infowindow content and apply css classes to the content
-	infoWindowContent: '<div class="info-window"><div class="window-title">Why I dig %title%</div><hr><div class="window-description">%description%</div></div>',
+	infoWindowContent: '<div class="info-window"><div class="window-title">%title%</div><hr class="horizontal-line"></div>',
 	initialize: function(viewModel) {
 		Map.map = new google.maps.Map(document.getElementById('map'), Map.options);
 		// show markers using either viewModel or Google Map

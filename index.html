@@ -58,7 +58,10 @@
 								<p data-bind="text: phone"></p>
 								<a class="link" target="_blank" data-bind="attr:{href: url}, text:url"></a><br/>
 								<span class="description" data-bind="html: foursquareLink"></span><br/>
-								<p class="description" data-bind="html: wikiSummary"></p>
+								<hr class="horizontal-line">
+								<p><label class="strong">Why I dig <span data-bind="text: name"></span>:&nbsp;&nbsp;</label><span data-bind="html: review"></span></p>
+								<hr class="horizontal-line">
+								<p data-bind="html: wikiSummary"></p>
 							</div>
 						</div>
 						<div class="row-fluid" style="overflow: auto">
