@@ -63,6 +63,15 @@ $(window).load(function() {
 	$('#loading').hide();
 });
 
+// collapsible info area
+$(document).ready(function(){
+	$('.menu-btn').click(function(){
+		$('nav').toggleClass('open');
+		$(this).toggleClass('close-btn');
+		$('.container').toggle();
+	})
+})
+
 // declare the wikiSummary variable
 var wikiSummary;
 
