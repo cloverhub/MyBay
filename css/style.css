@@ -68,7 +68,7 @@ footer {
 	top: 435px;
 	right: 20px;
 	width: 130px;
-	opacity: .5;
+	opacity: 0.5;
 }
 
 .filter {
@@ -83,7 +83,7 @@ footer {
 	font-weight: 500;
 	padding: 6px 9px;
 	margin-right: 4px;
-	opacity: .5;
+	opacity: 0.5;
 	cursor: pointer;
 	background-color: #ccc;
 	border-radius: 8px;
@@ -126,7 +126,7 @@ input[type="checkbox"]:checked + .filter-label {
 	border: none;
 	border-radius: 8px;
 	width: 100%;
-	opacity: .7;
+	opacity: 0.7;
 	box-shadow: 4px 4px 3px #888888;
 }
 
@@ -152,7 +152,7 @@ input[type="checkbox"]:checked + .filter-label {
 	padding: 5px;
 	-webkit-overflow-scrolling: touch;
 	margin-right: 2px;
-	opacity: .7;
+	opacity: 0.7;
 	background-color: #fff;
 	border-radius: 8px;
 	display: block;
@@ -208,7 +208,7 @@ nav {
 	transition: all 0.9s;
 	padding: 10px 0 40px 0;
 	display: block;
-	background-color:rgba(255, 255, 255, .8);
+	background-color:rgba(255, 255, 255, 0.8);
 }
 
 .open {
