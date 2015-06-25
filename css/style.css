@@ -34,7 +34,7 @@ footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	background-color: #B2D0FB;
+	background-color: #b2d0fb;
 	text-align: center;
 }
 
@@ -88,7 +88,7 @@ footer {
 	background-color: #ccc;
 	border-radius: 8px;
 	display: block;
-	box-shadow: 4px 4px 3px #888888;
+	box-shadow: 4px 4px 3px #888;
 }
 
 .location-details-container {
@@ -127,7 +127,7 @@ input[type="checkbox"]:checked + .filter-label {
 	border-radius: 8px;
 	width: 100%;
 	opacity: 0.7;
-	box-shadow: 4px 4px 3px #888888;
+	box-shadow: 4px 4px 3px #888;
 }
 
 .full-screen {
@@ -156,7 +156,7 @@ input[type="checkbox"]:checked + .filter-label {
 	background-color: #fff;
 	border-radius: 8px;
 	display: block;
-	box-shadow: 4px 4px 3px #888888;
+	box-shadow: 4px 4px 3px #888;
 }
 
 .location-item {
