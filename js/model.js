@@ -316,12 +316,12 @@ var locations = [
 		"category": ["explore"]
 	},
 	{
-		"name": "Jack London Square Public Shoreline",
+		"name": "Jack London Square",
 		"lat": 37.793903,
 		"lng": -122.275998,
 		"review": "One of my favorite kayak put-ins to go cruise around Alameda while the girls shop at farmers market.",
-		"wiki": "0",
-		"fs": "0",
+		"wiki": "1",
+		"fs": "1",
 		"category": ["outdoor"]
 	},
 	{
@@ -538,15 +538,6 @@ var locations = [
 		"review": "My favorite coffee shop by the beach. They brew up a mean cup of joe here and make some tasty, hefty sandwiches too. They've even got a little bar in back with draft beer. The occasional live band shows up outside for some entertainment.<br/><br/>The biggest downside to the place is when the hog bikers show up and take over the place.",
 		"wiki": "0",
 		"fs": "1",
-		"category": ["grub"]
-	},
-	{
-		"name": "Hilda’s Coffee Shop",
-		"lat": 37.975751,
-		"lng": -122.562993,
-		"review": "Stumbled across Hilda's on a recent drive to San Anselmo. This place is about as mom and pop as they come. I almost ordered French toast but our very kindly waitress talked me into the pancakes, which I was assured Hilda's was famous for.<br/><br/>She wasn't kidding. These were seriously the best pancakes I've ever had in my life. Deliciously soft in the middle and then taking on a crispy crepe-like consistency as you approach the perimeter.<br/><br/>The whole experience makes this place worth a repeat morning breakfast visit to San Anselmo.<br/><br/>Been back many, many times since. Always order the German pancakes and coffee. Often manage to be seated right next to George Lucas, another frequent customer. I do not bring up Jar Jar Binks to him.",
-		"wiki": "0",
-		"fs": "0",
 		"category": ["grub"]
 	},
 	{
