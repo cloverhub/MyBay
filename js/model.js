@@ -541,15 +541,6 @@ var locations = [
 		"category": ["grub"]
 	},
 	{
-		"name": "Hilda’s Coffee Shop",
-		"lat": 37.975751,
-		"lng": -122.562993,
-		"review": "Stumbled across Hilda's on a recent drive to San Anselmo. This place is about as mom and pop as they come. I almost ordered French toast but our very kindly waitress talked me into the pancakes, which I was assured Hilda's was famous for.<br/><br/>She wasn't kidding. These were seriously the best pancakes I've ever had in my life. Deliciously soft in the middle and then taking on a crispy crepe-like consistency as you approach the perimeter.<br/><br/>The whole experience makes this place worth a repeat morning breakfast visit to San Anselmo.<br/><br/>Been back many, many times since. Always order the German pancakes and coffee. Often manage to be seated right next to George Lucas, another frequent customer. I do not bring up Jar Jar Binks to him.",
-		"wiki": "0",
-		"fs": "0",
-		"category": ["grub"]
-	},
-	{
 		"name": "Limón Rotisserie",
 		"lat": 37.757027,
 		"lng": -122.416476,
