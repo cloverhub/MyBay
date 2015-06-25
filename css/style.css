@@ -11,6 +11,12 @@ h1 {
 
 h2 {
 	font-family: "Galindo", cursive;
+	font-size: 300%;
+	color: #3f3f3f;
+}
+
+h3 {
+	font-size: 180%;
 }
 
 h5 {
@@ -22,7 +28,7 @@ h5 {
 
 p {
 	color: #3f3f3f;
-	font-size: 1.3em;
+	font-size: 120%;
 	font-weight: 100;
 	line-height: 90%;
 }
