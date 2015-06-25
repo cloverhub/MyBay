@@ -361,7 +361,7 @@ var Map = {
 		zoom: 10,
 		maxZoom: 15,
 		minZoom: 9,
-		backgroundColor: '#B2D0FB'
+		backgroundColor: '#b2d0fb'
 	},
 	// set the infowindow content and apply css classes to the content
 	infoWindowContent: '<div class="info-window"><div class="window-title">%title%</div><hr class="horizontal-line"></div>',

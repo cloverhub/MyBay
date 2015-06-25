@@ -1,47 +1,41 @@
-html,body {
-	font-family: 'Alegreya Sans', sans-serif !important;
+html,
+body {
+	font-family: "Alegreya Sans", sans-serif;
 	height: 100%;
 }
 
 h1 {
-	font-family: 'Galindo', cursive !important;
-	line-height: 5px !important;
+	font-family: "Galindo", cursive;
+	line-height: 10px;
 }
 
 h2 {
-	font-family: 'Galindo', cursive !important;
+	font-family: "Galindo", cursive;
 }
 
 h5 {
-	font-size: 1.2em !important;
-	font-weight: 200 !important;
-	margin-top: 8px !important;
-	margin-bottom: 8px !important;
+	font-size: 1.3em;
+	font-weight: 200;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
 p {
 	color: #3f3f3f;
-	font-size: 1.2em;
+	font-size: 1.3em;
 	font-weight: 100;
 	line-height: 90%;
 }
 
-footer {
-	margin-top: 100px;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	position: absolute;
-	bottom: 0px;
-	width: 100%;
-	background-color: #B2D0FB;
-	text-align: center;
+.fine-print {
+	font-size: 0.9em;
 }
 
-#loading {
+.fixed-center {
 	width: 100%;
 	height: 100%;
-	top: 0px;
-	left: 0px;
+	top: 0;
+	left: 0;
 	position: fixed;
 	display: block;
 	opacity: 0.7;
@@ -49,57 +43,50 @@ footer {
 	text-align: center;
 }
 
-#filters-panel {
+.filters-panel {
 	position: absolute;
 	top: 10px;
 	left: 5%;
 }
 
-#locations-panel {
+.locations-panel {
 	position: absolute;
-	width: 22%;
+	width: 25%;
 	top: 50px;
 	left: 5%;
 }
 
-#title-panel {
+.title-panel {
 	position: absolute;
-	top: 435px;
-	right: 20px;
-	width: 130px;
-	opacity: .5;
-}
-
-#filters {
-	margin: 2px auto 0 0px;
-	position: relative;
-	bottom: 0;
+	top: 520px;
+	left: 5%;
+	width: 25%;
+	opacity: 0.5;
 }
 
 .filter {
+	margin: 2px auto 0 0;
+	position: relative;
+	bottom: 0;
 	display: inline-block;
-	line-height: 2 !important;
+	line-height: 2;
 }
 
 .filter-label {
-	font-weight: 500 !important;
+	font-weight: 500;
+	font-size: 1.4em;
 	padding: 6px 9px;
 	margin-right: 4px;
-	opacity: .5;
+	opacity: 0.5;
 	cursor: pointer;
 	background-color: #ccc;
 	border-radius: 8px;
 	display: block;
-	box-shadow: 4px 4px 3px #888888;
-}
-
-#info-container {
-	background-color: #efefef;
-	box-shadow: 0px 10px 10px #d9d9d9;
+	box-shadow: 4px 4px 3px #888;
 }
 
 .location-details-container {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 input[type="checkbox"] {
@@ -123,7 +110,8 @@ input[type="checkbox"]:checked + .filter-label {
 	border-top: 1px solid #b2d0fb;
 }
 
-#search {
+.search {
+	font-size: 1.3em;
 	margin-bottom: 10px;
 	margin-top: 20px;
 }
@@ -133,16 +121,11 @@ input[type="checkbox"]:checked + .filter-label {
 	border: none;
 	border-radius: 8px;
 	width: 100%;
-	opacity: .7;
-	box-shadow: 4px 4px 3px #888888;
+	opacity: 0.7;
+	box-shadow: 4px 4px 3px #888;
 }
 
-#wrapper {
-	position: relative;
-	padding: 0px;
-}
-
-#map {
+.full-screen {
 	position:fixed !important;
 	position:absolute;
 	top:0;
@@ -151,24 +134,24 @@ input[type="checkbox"]:checked + .filter-label {
 	left:0;
 }
 
-#locations {
+.locations {
 	width: 100%;
-	height: 380px;
+	height: 400px;
 	border-top: 5px;
 }
 
 /* location list with mobile touch scrolling */
-#location-list {
+.location-list {
 	height: 100%;
 	overflow-y: scroll;
 	padding: 5px;
 	-webkit-overflow-scrolling: touch;
 	margin-right: 2px;
-	opacity: .7;
+	opacity: 0.7;
 	background-color: #fff;
 	border-radius: 8px;
 	display: block;
-	box-shadow: 4px 4px 3px #888888;
+	box-shadow: 4px 4px 3px #888;
 }
 
 .location-item {
@@ -200,13 +183,13 @@ input[type="checkbox"]:checked + .filter-label {
 	font-size: 2em;
 	font-weight: 500;
 	line-height: 95%;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 }
 
 .window-description {
 	font-size: 1.2em;
 	font-weight: 100;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 }
 
 /* Collapsible Bar */
@@ -220,7 +203,7 @@ nav {
 	transition: all 0.9s;
 	padding: 10px 0 40px 0;
 	display: block;
-	background-color:rgba(255, 255, 255, .8);
+	background-color:rgba(255, 255, 255, 0.8);
 }
 
 .open {
@@ -229,9 +212,9 @@ nav {
 
 .menu-btn {
 	cursor: pointer;
-	background-image: url('../img/close.png');
-	height: 60px;
-	width: 154px;
+	background-image: url("../img/close.png");
+	height: 48px;
+	width: 114px;
 	background-size: cover;
 	display: inline;
 	z-index: 99;
