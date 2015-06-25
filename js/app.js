@@ -67,20 +67,12 @@ $(window).load(function() {
 // collapsible info area
 function expandCollapse() {
 	$('nav').removeClass('open');
-	//$(this).toggleClass('close-btn');
-	//$('.container').toggle();
 	Map.infoWindow.close();
 }
 
 function infoExpand() {
 	$('nav').addClass('open');
 	$('this').addClass('close-btn');
-}
-
-function infoCollapse() {
-	$('nav').addClass('open');
-	$(this).addClass('close-btn');
-	$('.container').toggle();
 }
 
 $(document).ready(function(){
