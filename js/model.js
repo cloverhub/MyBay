@@ -316,12 +316,12 @@ var locations = [
 		"category": ["explore"]
 	},
 	{
-		"name": "Jack London Square Public Shoreline",
+		"name": "Jack London Square",
 		"lat": 37.793903,
 		"lng": -122.275998,
 		"review": "One of my favorite kayak put-ins to go cruise around Alameda while the girls shop at farmers market.",
-		"wiki": "0",
-		"fs": "0",
+		"wiki": "1",
+		"fs": "1",
 		"category": ["outdoor"]
 	},
 	{

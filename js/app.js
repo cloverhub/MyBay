@@ -186,10 +186,11 @@ var ViewModel = function() {
 
 	// show the selected location when either an item in the location list or its map marker is clicked
 	self.showLocation = function(location) {
+		Map.infoWindow.close();
 		// var infoWindow = null;
 		Map.infoWindow.setContent(null);
 		location.marker.setIcon('img/marker-default.png');
-		Map.infoWindow.close(Map.map, location.marker);
+		//Map.infoWindow.close(Map.map, location.marker);
 		// display the Google Maps infowindow
 		Map.infoWindow.open(Map.map, location.marker);
 		Map.infoWindow.setContent(Map.infoWindowContent.replace('%title%', location.name()).replace('%description%', location.review()));
