@@ -69,6 +69,7 @@ function expandCollapse() {
 	$('nav').removeClass('open');
 	//$(this).toggleClass('close-btn');
 	//$('.container').toggle();
+	Map.infoWindow.close();
 }
 
 function infoExpand() {
