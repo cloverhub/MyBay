@@ -1,22 +1,23 @@
-html,body {
-	font-family: 'Alegreya Sans', sans-serif !important;
+html,
+body {
+	font-family: "Alegreya Sans", sans-serif;
 	height: 100%;
 }
 
 h1 {
-	font-family: 'Galindo', cursive !important;
-	line-height: 5px !important;
+	font-family: "Galindo", cursive;
+	line-height: 5px;
 }
 
 h2 {
-	font-family: 'Galindo', cursive !important;
+	font-family: "Galindo", cursive;
 }
 
 h5 {
-	font-size: 1.2em !important;
-	font-weight: 200 !important;
-	margin-top: 8px !important;
-	margin-bottom: 8px !important;
+	font-size: 1.2em;
+	font-weight: 200;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
 p {
@@ -37,7 +38,7 @@ footer {
 	text-align: center;
 }
 
-#loading {
+.fixed-center {
 	width: 100%;
 	height: 100%;
 	top: 0px;
@@ -49,20 +50,20 @@ footer {
 	text-align: center;
 }
 
-#filters-panel {
+.filters-panel {
 	position: absolute;
 	top: 10px;
 	left: 5%;
 }
 
-#locations-panel {
+.locations-panel {
 	position: absolute;
 	width: 22%;
 	top: 50px;
 	left: 5%;
 }
 
-#title-panel {
+.title-panel {
 	position: absolute;
 	top: 435px;
 	right: 20px;
@@ -70,19 +71,16 @@ footer {
 	opacity: .5;
 }
 
-#filters {
+.filter {
 	margin: 2px auto 0 0px;
 	position: relative;
 	bottom: 0;
-}
-
-.filter {
 	display: inline-block;
-	line-height: 2 !important;
+	line-height: 2;
 }
 
 .filter-label {
-	font-weight: 500 !important;
+	font-weight: 500;
 	padding: 6px 9px;
 	margin-right: 4px;
 	opacity: .5;
@@ -93,10 +91,11 @@ footer {
 	box-shadow: 4px 4px 3px #888888;
 }
 
+/*
 #info-container {
 	background-color: #efefef;
 	box-shadow: 0px 10px 10px #d9d9d9;
-}
+}*/
 
 .location-details-container {
 	font-size: 1.2em;
@@ -123,7 +122,7 @@ input[type="checkbox"]:checked + .filter-label {
 	border-top: 1px solid #b2d0fb;
 }
 
-#search {
+.search {
 	margin-bottom: 10px;
 	margin-top: 20px;
 }
@@ -137,12 +136,7 @@ input[type="checkbox"]:checked + .filter-label {
 	box-shadow: 4px 4px 3px #888888;
 }
 
-#wrapper {
-	position: relative;
-	padding: 0px;
-}
-
-#map {
+.full-screen {
 	position:fixed !important;
 	position:absolute;
 	top:0;
@@ -151,14 +145,14 @@ input[type="checkbox"]:checked + .filter-label {
 	left:0;
 }
 
-#locations {
+.locations {
 	width: 100%;
 	height: 380px;
 	border-top: 5px;
 }
 
 /* location list with mobile touch scrolling */
-#location-list {
+.location-list {
 	height: 100%;
 	overflow-y: scroll;
 	padding: 5px;
@@ -200,13 +194,13 @@ input[type="checkbox"]:checked + .filter-label {
 	font-size: 2em;
 	font-weight: 500;
 	line-height: 95%;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 }
 
 .window-description {
 	font-size: 1.2em;
 	font-weight: 100;
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 }
 
 /* Collapsible Bar */
@@ -229,9 +223,9 @@ nav {
 
 .menu-btn {
 	cursor: pointer;
-	background-image: url('../img/close.png');
-	height: 60px;
-	width: 154px;
+	background-image: url("../img/close.png");
+	height: 48px;
+	width: 114px;
 	background-size: cover;
 	display: inline;
 	z-index: 99;

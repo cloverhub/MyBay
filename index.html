@@ -14,36 +14,36 @@
 	<body>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12" id="wrapper">
-					<div id="map">
-						<div id="loading">
+				<div class="col-xs-12">
+					<div class="full-screen" id="map">
+						<div class="fixed-center" id="loading">
 							<img id="loading-image" src="img/loading.gif" alt="Loading..." />
 						</div>
 					</div>
-					<div id="filters-panel">
-						<div id="filters" data-bind="foreach: filters">
+					<div class="filters-panel">
+						<div class="filters" data-bind="foreach: filters">
 							<div class="filter"><input type="checkbox" data-bind="checked: $data.on" /><label class="filter-label" data-bind="text: $data.name, click: $parent.toggleFilter.bind($data)"></label>
 							</div>
 						</div>
 					</div>
-					<div id="locations-panel">
-						<div id="search">
+					<div class="locations-panel">
+						<div class="search">
 							<input data-bind="value: searchFilter, valueUpdate: 'afterkeydown'" placeholder="search these results..." class="search-input"/>
 						</div>
-						<div id="locations">
-							<ul data-bind="foreach: filteredLocations" id="location-list">
+						<div class="locations">
+							<ul class="location-list" data-bind="foreach: filteredLocations">
 								<li class="location-item" data-bind="click: $parent.showLocation.bind($data)"><h5 data-bind="text: $data.name"></h5><hr></li>
 							</ul>
 						</div>
 					</div>
-					<div id="title-panel">
+					<div class="title-panel">
 						<h1>MyBay</h1>
 						<p>a Shawn Clover project</p>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<section class="col-xs-12" id="info-container">
+				<section class="col-xs-12">
 					<div data-bind="visible: connectionError">
 						<div class="alert alert-danger" role="alert">
 							<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
