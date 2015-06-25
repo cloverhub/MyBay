@@ -27,6 +27,7 @@
 - Google Maps API documentation
 - Foursquare API documentation
 - Wikipedia API documentation
+- Codepen: responsive full screen navigation menu that slides from top using a toggle button
 
 ## Known Bugs:
 - Wikipedia data randomly doesn't display sometimes (the data is coming across because it is console-logging). May be a Bootstrap issue.

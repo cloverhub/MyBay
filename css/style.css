@@ -143,7 +143,12 @@ input[type="checkbox"]:checked + .filter-label {
 }
 
 #map {
-	height: 500px;
+	position:fixed !important;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
 }
 
 #locations {
@@ -172,6 +177,10 @@ input[type="checkbox"]:checked + .filter-label {
 	margin-left: 10px;
 }
 
+.location-img {
+	opacity: 1;
+}
+
 /* fluid horizontal-scrollable row for photos */
 .row-fluid {
 	white-space: nowrap;
@@ -198,4 +207,35 @@ input[type="checkbox"]:checked + .filter-label {
 	font-size: 1.2em;
 	font-weight: 100;
 	font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Collapsible Bar */
+nav {
+	position: absolute;
+	z-index: 98;
+	top: -1600px;
+	left: 0;
+	right: 0;
+	background: #fff;
+	transition: all 0.9s;
+	padding: 10px 0 40px 0;
+	display: block;
+	background-color:rgba(255, 255, 255, .8);
+}
+
+.open {
+	top: 0;
+}
+
+.menu-btn {
+	cursor: pointer;
+	background-image: url('../img/close.png');
+	height: 60px;
+	width: 154px;
+	background-size: cover;
+	display: inline;
+	z-index: 99;
+	position: fixed;
+	top: 500;
+	right: 0;
 }

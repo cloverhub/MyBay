@@ -54,6 +54,7 @@ var Location = function(data, parent) {
 function compare(el1, el2, index) {
 	return el1[index] == el2[index] ? 0 : (el1[index] < el2[index] ? -1 : 1);
 }
+
 locations.sort(function(el1,el2){
 	return compare(el1, el2, "name");
 });
@@ -62,6 +63,23 @@ locations.sort(function(el1,el2){
 $(window).load(function() {
 	$('#loading').hide();
 });
+
+// collapsible info area
+function expandCollapse() {
+	$('nav').removeClass('open');
+	Map.infoWindow.close();
+}
+
+function infoExpand() {
+	$('nav').addClass('open');
+	$('this').addClass('close-btn');
+}
+
+$(document).ready(function(){
+	$('.menu-btn').click(function(){
+		expandCollapse();
+	})
+})
 
 // declare the wikiSummary variable
 var wikiSummary;
@@ -185,6 +203,7 @@ var ViewModel = function() {
 
 	// show the selected location when either an item in the location list or its map marker is clicked
 	self.showLocation = function(location) {
+		infoExpand();
 		Map.infoWindow.close();
 		// var infoWindow = null;
 		Map.infoWindow.setContent(null);
@@ -253,14 +272,14 @@ var ViewModel = function() {
 					.done(function(data) {
 						// grab the first eight Foursquare photos for each location. TODO: convert to array
 						var photos = data.response.photos.items;
-						location.photo1 = ko.observable(photos[0].prefix + 'height200' + photos[0].suffix);
-						location.photo2 = ko.observable(photos[1].prefix + 'height200' + photos[1].suffix);
-						location.photo3 = ko.observable(photos[2].prefix + 'height200' + photos[2].suffix);
-						location.photo4 = ko.observable(photos[3].prefix + 'height200' + photos[3].suffix);
-						location.photo5 = ko.observable(photos[4].prefix + 'height200' + photos[4].suffix);
-						location.photo6 = ko.observable(photos[5].prefix + 'height200' + photos[5].suffix);
-						location.photo7 = ko.observable(photos[6].prefix + 'height200' + photos[6].suffix);
-						location.photo8 = ko.observable(photos[7].prefix + 'height200' + photos[7].suffix);
+						location.photo1 = ko.observable(photos[0].prefix + 'height400' + photos[0].suffix);
+						location.photo2 = ko.observable(photos[1].prefix + 'height400' + photos[1].suffix);
+						location.photo3 = ko.observable(photos[2].prefix + 'height400' + photos[2].suffix);
+						location.photo4 = ko.observable(photos[3].prefix + 'height400' + photos[3].suffix);
+						location.photo5 = ko.observable(photos[4].prefix + 'height400' + photos[4].suffix);
+						location.photo6 = ko.observable(photos[5].prefix + 'height400' + photos[5].suffix);
+						location.photo7 = ko.observable(photos[6].prefix + 'height400' + photos[6].suffix);
+						location.photo8 = ko.observable(photos[7].prefix + 'height400' + photos[7].suffix);
 						location.state(true);
 
 						// set the selected location
