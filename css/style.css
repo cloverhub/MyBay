@@ -180,6 +180,7 @@ input[type="checkbox"]:checked + .filter-label {
 /* fluid horizontal-scrollable row for photos */
 .row-fluid {
 	white-space: nowrap;
+	style=display:none;
 }
 
 .row-fluid .col-lg-3 {

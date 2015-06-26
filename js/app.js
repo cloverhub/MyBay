@@ -322,7 +322,6 @@ var ViewModel = function() {
 				}
 				// if we're not firing a Foursquare request then set all Foursquare data to null and update location
 				else {
-					$(".row-fluid").hide();
 					location.phone = null;
 					location.url = null;
 					location.foursquareLink = null;
