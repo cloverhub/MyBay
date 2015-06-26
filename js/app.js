@@ -194,10 +194,11 @@ var ViewModel = function() {
 		});
 	};
 
+	// expand the info drawer
 	function infoExpand() {
 		$('nav').addClass('open');
 		$('this').addClass('close-btn');
-	}
+	};
 
 	$(document).ready(function(){
 		$('.menu-btn').click(function(){
@@ -208,9 +209,9 @@ var ViewModel = function() {
 	// collapsible info area
 	function expandCollapse() {
 		$('nav').removeClass('open');
-		Map.infoWindow.close();
-		self.clearLocation();
-}
+		//Map.infoWindow.close();
+		//self.clearLocation();
+	};
 
 	// clear selected location
 	self.clearLocation = function() {
@@ -222,9 +223,9 @@ var ViewModel = function() {
 	// show the selected location when either an item in the location list or its map marker is clicked
 	self.showLocation = function(location) {
 		infoExpand();
-		Map.infoWindow.close();
-		Map.infoWindow.setContent(null);
-		location.marker.setIcon('img/marker-default.png');
+		//Map.infoWindow.close();
+		//Map.infoWindow.setContent(null);
+		//location.marker.setIcon('img/marker-default.png');
 		// display the Google Maps infowindow
 		Map.infoWindow.open(Map.map, location.marker);
 		Map.infoWindow.setContent(Map.infoWindowContent.replace('%title%', location.name()).replace('%description%', location.review()));
