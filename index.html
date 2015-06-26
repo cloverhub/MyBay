@@ -10,7 +10,87 @@
 		<link rel="stylesheet" href="css/offline-theme-default.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="icon" type="image/png" href="img/favicon.png" />
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet'>
+		<link href='http://fonts.googleapis.com/css?family=Galindo' rel='stylesheet'>
 	</head>
 	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="full-screen" id="map">
+						<div class="fixed-center" id="loading">
+							<img id="loading-image" src="img/loading.gif" alt="Loading..." />
+						</div>
+					</div>
+					<div class="filters-panel">
+						<div class="filters" data-bind="foreach: filters">
+							<div class="filter"><input type="checkbox" data-bind="checked: $data.on" /><label class="filter-label" data-bind="text: $data.name, click: $parent.toggleFilter.bind($data)"></label>
+							</div>
+						</div>
+					</div>
+					<div class="locations-panel">
+						<div class="search">
+							<input data-bind="value: searchFilter, valueUpdate: 'afterkeydown'" placeholder="search these results..." class="search-input"/>
+						</div>
+						<div class="locations">
+							<ul class="location-list" data-bind="foreach: filteredLocations">
+								<li class="location-item" data-bind="click: $parent.showLocation.bind($data)"><h5 data-bind="text: $data.name"></h5><hr></li>
+							</ul>
+						</div>
+					</div>
+					<div class="title-panel">
+						<h1>MyBay</h1>
+						<p>a Shawn Clover project</p>
+						<p class="fine-print">MyBay app by <a href="http://shawnclover.com" target="_blank">Shawn Clover</a>. All views expressed in the location markers are my own. Contact data and photos courtesy Foursquare. Additional location information courtesy Wikipedia. Map data courtesy Google Maps.</p>
+						<p class="fine-print">This project and its description are on <a href="https://github.com/cloverhub/mybay" target="_blank">GitHub</a>.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<section class="col-xs-12">
+					<div data-bind="visible: connectionError">
+						<div class="alert alert-danger" role="alert">
+							<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+							<span class="sr-only">Error:</span>
+							There was a problem. Please try again.
+						</div>
+					</div>
+					<nav>
+						<div class="menu-btn">
+						</div>
+						<div class="selected-location" data-bind="with: selectedLocation()">
+							<div class="location-details-container">
+								<div class="location-details">
+									<h2 data-bind="text: name"></h2>
+									<p data-bind="text: phone"></p>
+									<a class="link" target="_blank" data-bind="attr:{href: url}, text:url"></a><br/>
+									<span class="description" data-bind="html: foursquareLink"></span><br/>
+									<hr class="horizontal-line">
+									<h3>Why I dig <span data-bind="text: name"></span></h3><p data-bind="html: review"></p>
+									<hr class="horizontal-line">
+									<span data-bind="html: wikiSummary"></span>
+								</div>
+							</div>
+							<div class="row-fluid" style="overflow: auto">
+								<img class="location-img" alt=" Photo 1" data-bind="attr:{src: photo1}" />
+								<img class="location-img" alt=" Photo 2" data-bind="attr:{src: photo2}" />
+								<img class="location-img" alt=" Photo 3" data-bind="attr:{src: photo3}" />
+								<img class="location-img" alt=" Photo 4" data-bind="attr:{src: photo4}" />
+								<img class="location-img" alt=" Photo 5" data-bind="attr:{src: photo5}" />
+								<img class="location-img" alt=" Photo 6" data-bind="attr:{src: photo6}" />
+								<img class="location-img" alt=" Photo 7" data-bind="attr:{src: photo7}" />
+								<img class="location-img" alt=" Photo 8" data-bind="attr:{src: photo8}" />
+							</div>
+						</div>
+					</nav>
+				</section>
+			</div>
+		</div>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYnhx5vTvUd_TYgJKdWaO-5N1T-ipG2k8"></script>
+	<script src="js/libs/knockout-3.2.0.js"></script>
+	<script src="js/libs/jquery-2.1.3.min.js"></script>
+	<script src="js/model.js"></script>
+	<script src="js/app.js"></script>
+	<!--<script src="js/offline.min.js"></script>-->
 	</body>
 </html>
