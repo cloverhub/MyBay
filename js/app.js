@@ -246,7 +246,7 @@ var ViewModel = function() {
 
 		// display the Google Maps infowindow
 		Map.infoWindow.open(Map.map, location.marker);
-		Map.infoWindow.setContent(Map.infoWindowContent.replace('%title%', location.name()).replace('%description%', location.review()));
+		Map.infoWindow.setContent(Map.infoWindowContent.replace('%title%', location.name()));
 
 		// reset connectionError back to false
 		self.connectionError(false);
