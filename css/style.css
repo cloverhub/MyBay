@@ -64,10 +64,16 @@ p {
 
 .title-panel {
 	position: absolute;
-	bottom: 300px;
-	right: 3%;
+	top: 30px;
+	right: 30px;
 	width: 25%;
 	opacity: 0.5;
+	padding: 2px;
+}
+
+.title-panel:hover {
+	opacity: 1;
+	background-color: #fff;
 }
 
 .filter {
