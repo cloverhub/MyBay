@@ -237,7 +237,6 @@ var ViewModel = function() {
 	self.clearLocation = function() {
 		Map.infoWindow.close();
 		Map.infoWindow.setContent(null);
-		self.selectedLocation().marker.setIcon('img/marker-default.png');
 	};
 
 	// show the selected location when either an item in the location list or its map marker is clicked
@@ -248,12 +247,6 @@ var ViewModel = function() {
 		// display the Google Maps infowindow
 		Map.infoWindow.open(Map.map, location.marker);
 		Map.infoWindow.setContent(Map.infoWindowContent.replace('%title%', location.name()).replace('%description%', location.review()));
-
-		// set default (unselected) marker icon
-		if (self.selectedLocation()) self.selectedLocation().marker.setIcon('img/marker-default.png');
-
-		// set a selected location to the selected marker icon
-		location.marker.setIcon('img/marker-selected.png');
 
 		// reset connectionError back to false
 		self.connectionError(false);
