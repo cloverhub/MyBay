@@ -1,3 +1,4 @@
+'use strict';
 // check for offline
 /*
 var run = function(){
@@ -78,11 +79,13 @@ function infoExpand() {
 $(document).ready(function(){
 	$('.menu-btn').click(function(){
 		expandCollapse();
-	})
-})
+	});
+});
 
 // declare the wikiSummary variable
 var wikiSummary;
+var foursquareApi;
+var foursquareLink;
 
 //***************************************************************** Filter Object
 var Filter = function(data) {
