@@ -65,24 +65,7 @@ $(window).load(function() {
 	$('#loading').hide();
 });
 
-// collapsible info area
-function expandCollapse() {
-	$('nav').removeClass('open');
-	Map.infoWindow.close();
-}
-
-function infoExpand() {
-	$('nav').addClass('open');
-	$('this').addClass('close-btn');
-}
-
-$(document).ready(function(){
-	$('.menu-btn').click(function(){
-		expandCollapse();
-	});
-});
-
-// declare the wikiSummary variable
+// declare some variables which clears up some issues
 var wikiSummary;
 var foursquareApi;
 var foursquareLink;
@@ -204,14 +187,44 @@ var ViewModel = function() {
 		filter.on(!filter.on());
 	};
 
+	// experimental unused function to clear all markers
+	self.clearMarkers = function(filteredLocations) {
+		ko.utils.arrayForEach(self.locationList(), function(location) {
+			location.marker.setVisible(false);
+		});
+	};
+
+	function infoExpand() {
+		$('nav').addClass('open');
+		$('this').addClass('close-btn');
+	}
+
+	$(document).ready(function(){
+		$('.menu-btn').click(function(){
+			expandCollapse();
+		});
+	});
+
+	// collapsible info area
+	function expandCollapse() {
+		$('nav').removeClass('open');
+		Map.infoWindow.close();
+		self.clearLocation();
+}
+
+	// clear selected location
+	self.clearLocation = function() {
+		Map.infoWindow.close();
+		Map.infoWindow.setContent(null);
+		self.selectedLocation().marker.setIcon('img/marker-default.png');
+	};
+
 	// show the selected location when either an item in the location list or its map marker is clicked
 	self.showLocation = function(location) {
 		infoExpand();
 		Map.infoWindow.close();
-		// var infoWindow = null;
 		Map.infoWindow.setContent(null);
 		location.marker.setIcon('img/marker-default.png');
-		//Map.infoWindow.close(Map.map, location.marker);
 		// display the Google Maps infowindow
 		Map.infoWindow.open(Map.map, location.marker);
 		Map.infoWindow.setContent(Map.infoWindowContent.replace('%title%', location.name()).replace('%description%', location.review()));
@@ -231,7 +244,7 @@ var ViewModel = function() {
 			//***************************************************************** Call Foursquare API
 			foursquareApi = {
 				clientId: 'CHOZ3HJEWOJOGBDA1PFUA0Y3KP300XAQM2LAJVZVL1XHD5UE',
-				clientSecret: '1Y2LSHK2TNKRWWVHC3F3E0E2G0L10RABG1Z5DNQQAR5UAFKR',
+				clientSecret: 'II50TC3MPWNJ0DEVPFWXNEQV4USNZXFNWSXXSOW05OJYFTC4',
 				ver: '20150601',
 				baseUrl: 'https://api.foursquare.com/v2/venues/'
 			};
@@ -275,14 +288,14 @@ var ViewModel = function() {
 					.done(function(data) {
 						// grab the first eight Foursquare photos for each location. TODO: convert to array
 						var photos = data.response.photos.items;
-						location.photo1 = ko.observable(photos[0].prefix + 'height400' + photos[0].suffix);
-						location.photo2 = ko.observable(photos[1].prefix + 'height400' + photos[1].suffix);
-						location.photo3 = ko.observable(photos[2].prefix + 'height400' + photos[2].suffix);
-						location.photo4 = ko.observable(photos[3].prefix + 'height400' + photos[3].suffix);
-						location.photo5 = ko.observable(photos[4].prefix + 'height400' + photos[4].suffix);
-						location.photo6 = ko.observable(photos[5].prefix + 'height400' + photos[5].suffix);
-						location.photo7 = ko.observable(photos[6].prefix + 'height400' + photos[6].suffix);
-						location.photo8 = ko.observable(photos[7].prefix + 'height400' + photos[7].suffix);
+						location.photo1 = ko.observable(photos[0].prefix + 'height300' + photos[0].suffix);
+						location.photo2 = ko.observable(photos[1].prefix + 'height300' + photos[1].suffix);
+						location.photo3 = ko.observable(photos[2].prefix + 'height300' + photos[2].suffix);
+						location.photo4 = ko.observable(photos[3].prefix + 'height300' + photos[3].suffix);
+						location.photo5 = ko.observable(photos[4].prefix + 'height300' + photos[4].suffix);
+						location.photo6 = ko.observable(photos[5].prefix + 'height300' + photos[5].suffix);
+						location.photo7 = ko.observable(photos[6].prefix + 'height300' + photos[6].suffix);
+						location.photo8 = ko.observable(photos[7].prefix + 'height300' + photos[7].suffix);
 						location.state(true);
 
 						// set the selected location
