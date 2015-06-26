@@ -789,34 +789,35 @@ var locations = [
 		"lng": -121.855335,
 		"review": "One of my favorite mountain biking spots as long as it's not mid-afternoon in the middle of summer. Great place to just set out on a hike too. There's plenty to explore, including the old graveyard up on the hill. And, of course, a tour of the Hazel Atlas mines is a must-see at least once.",
 		"wiki": "1",
-		"fs": "1",
+		"fs": "0",
 		"category": ["outdoor"]
 	},
-	{
+	/*{
 		"name": "The Trappist",
 		"lat": 37.800497,
 		"lng": -122.27420,
 		"review": "My Belgian blood draws me to this place like a mosquito to a bug light. If you're looking for some Bud Light, this is not the place for you.<br/><br/>Possibly the best place for beer in the entire Bay Area. Although named after the legendary trappist monastery brewers in Belgium, the Trappist serves up a variety of kick-butt beers from around the world.<br/><br/>The atmosphere and food are top-notch as well. This is my happy place!",
 		"wiki": "0",
-		"fs": "1",
+		"fs": "0",
 		"category": ["grub"]
 	},
+	*/
 	{
-		"name": "Craneway Pavilion",
+		"name": "Ford Motor Company Assembly Plant",
 		"lat": 37.909424,
 		"lng": -122.35864,
 		"review": "The Craneway is the old 1931 Ford Motor plant repurposed into a state-of-the-art venue for concerts and other special events. The view of the bay and city skyline is stunning, especially in the evening.<br/><br/>The premier event held here, in my opinion, is the pre-Independence Day fireworks show, which has become an annual event on July 3. The East Bay Symphony orchestra plays for a few hours while you sit on your blanket and picnic inside the huge building. Then, everyone shuffles outside to the edge of the bay for the fireworks show.<br/><br/>Right next door is the Rosie the Riveter museum, a very well put together tribute to the women workers of WWII.",
-		"wiki": "0",
-		"fs": "1",
+		"wiki": "1",
+		"fs": "0",
 		"category": ["arts", "fun"]
 	},
 	{
-		"name": "Livermore Municipal Airport (LVK)",
+		"name": "Livermore Municipal Airport",
 		"lat": 37.695962,
 		"lng": -121.818124,
 		"review": "My home base airport for many years when I was a member of the Flying Particles Club. My plane of choice was N9658K which I flew all over the state, including many 'Bay Tour' routes over the bay, over the Golden Gate Bridge, and then down the Pacific Coastline down to Half Moon Bay for lunch.",
 		"wiki": "0",
-		"fs": "1",
+		"fs": "0",
 		"category": ["fun"]
 	},
 	{
@@ -843,7 +844,7 @@ var locations = [
 		"lng": -122.490005,
 		"review": "The best little secluded beach in the Bay Area. It's a bit of a hike down from the road, but worth it. Once on the beach, you find yourself practically right under the Golden Gate Bridge with an incredible view of the NW side of the city all the way to downtown San Francisco.<br/><br/>I've come down here at night with a ton of photo equipment strapped to my back to capture the super moon rising over the city. A sight I'll never forget!",
 		"wiki": "1",
-		"fs": "1",
+		"fs": "0",
 		"category": ["outdoor"]
 	},
 	{
@@ -879,7 +880,7 @@ var locations = [
 		"lng": -122.246761,
 		"review": "A great hands-on place to learn all about science. I came here many times as a kid. Some of the stuff seemed a bit on the 'grown-up' side when you're a kid but I was learning all along. There used to be experiments you could do with mazes and live mice which were always fun. The whole place has improved greatly over the years and is a great place for kids now. And go scale the whale when you're done!",
 		"wiki": "1",
-		"fs": "1",
+		"fs": "0",
 		"category": ["sci-tech", "kids"]
 	},
 	{
@@ -897,7 +898,7 @@ var locations = [
 		"lng": -122.502708,
 		"review": "Fort Funston was a WWI-era defense installation to protect San Francisco Bay in the early 1900s. Today it is a National Park. It's a great place for scenic trail walks along the coast and exploring the old defense batteries. Fort Funston is also the best place in the Bay Area to watch hang gliders up close. You can hear the whooosh when they fly over close above. I haven't gotten into hang gliding yet, but this is the place I'll go when I'm looking to get started.",
 		"wiki": "1",
-		"fs": "1",
+		"fs": "0",
 		"category": ["outdoor"]
 	}
 ];
