@@ -49,6 +49,28 @@ var Location = function(data, parent) {
 	this.marker = marker;
 };
 
+//***************************************************************** Google Maps
+// create the Google Map
+
+var Map = {
+	map: {},
+	infoWindow: new google.maps.InfoWindow({
+		}),
+	options: {
+		center: {lat: 37.8, lng: -122.3},
+		zoom: 10,
+		maxZoom: 15,
+		minZoom: 9,
+		backgroundColor: '#b2d0fb'
+	},
+	// set the infowindow content and apply css classes to the content
+	infoWindowContent: '<div class="info-window"><div class="window-title">%title%</div><hr class="horizontal-line"></div>',
+	initialize: function(viewModel) {
+		Map.map = new google.maps.Map(document.getElementById('map'), Map.options);
+		// show markers using either viewModel or Google Map
+		if (viewModel.state && !viewModel.hasMarkers) viewModel.showMarkers();
+	}
+};
 
 //***************************************************************** Misc
 // alphabetize location names in the JSON data A-Z
@@ -209,8 +231,6 @@ var ViewModel = function() {
 	// collapsible info area
 	function expandCollapse() {
 		$('nav').removeClass('open');
-		//Map.infoWindow.close();
-		//self.clearLocation();
 	};
 
 	// clear selected location
@@ -222,14 +242,13 @@ var ViewModel = function() {
 
 	// show the selected location when either an item in the location list or its map marker is clicked
 	self.showLocation = function(location) {
+		// open the info drawer
 		infoExpand();
-		//Map.infoWindow.close();
-		//Map.infoWindow.setContent(null);
-		//location.marker.setIcon('img/marker-default.png');
+
 		// display the Google Maps infowindow
 		Map.infoWindow.open(Map.map, location.marker);
 		Map.infoWindow.setContent(Map.infoWindowContent.replace('%title%', location.name()).replace('%description%', location.review()));
-		
+
 		// set default (unselected) marker icon
 		if (self.selectedLocation()) self.selectedLocation().marker.setIcon('img/marker-default.png');
 
@@ -367,28 +386,6 @@ var ViewModel = function() {
 	};
 };
 
-//***************************************************************** Google Maps
-// create the Google Map
-
-var Map = {
-	map: {},
-	infoWindow: new google.maps.InfoWindow({
-		}),
-	options: {
-		center: {lat: 37.8, lng: -122.3},
-		zoom: 10,
-		maxZoom: 15,
-		minZoom: 9,
-		backgroundColor: '#b2d0fb'
-	},
-	// set the infowindow content and apply css classes to the content
-	infoWindowContent: '<div class="info-window"><div class="window-title">%title%</div><hr class="horizontal-line"></div>',
-	initialize: function(viewModel) {
-		Map.map = new google.maps.Map(document.getElementById('map'), Map.options);
-		// show markers using either viewModel or Google Map
-		if (viewModel.state && !viewModel.hasMarkers) viewModel.showMarkers();
-	}
-};
 
 //***************************************************************** Declare ViewModel
 // declare the global ViewModel and apply the view bindings
