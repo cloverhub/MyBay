@@ -182,7 +182,7 @@ input[type="checkbox"]:checked + .filter-label {
 .location-img {
 	opacity: 1;
 	filter: alpha(opacity=100);
-	margin: 10px;
+	margin-left: 10px;
 }
 
 /* fluid horizontal-scrollable row for photos */
