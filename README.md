@@ -38,3 +38,4 @@
 - Additional location courtesy Wikipedia
 - Map data courtesy Google Maps
 - Icons courtesy Pixabay under Creative Commonds Deed CC0 license (public domain) and modified by Shawn Clover
+- Tooltip "Pure CSS Tooltips" by greypants on jsfiddle.net
