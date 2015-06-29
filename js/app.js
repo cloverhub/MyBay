@@ -12,7 +12,7 @@ var run = function(){
 			initialDelay: 3
 		},
 	requests: true
-	}
+	};
 }
 setInterval(run, 5000);
 */
@@ -219,7 +219,7 @@ var ViewModel = function() {
 	function infoExpand() {
 		$('nav').addClass('open');
 		$('this').addClass('close-btn');
-	};
+	}
 
 	$(document).ready(function(){
 		$('.menu-btn').click(function(){
@@ -230,7 +230,7 @@ var ViewModel = function() {
 	// collapsible info area
 	function expandCollapse() {
 		$('nav').removeClass('open');
-	};
+	}
 
 	// clear selected location
 	self.clearLocation = function() {
