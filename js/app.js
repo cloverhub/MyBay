@@ -300,14 +300,7 @@ var ViewModel = function() {
 					.done(function(data) {
 						// grab the first eight Foursquare photos for each location. TODO: convert to array
 						var photos = data.response.photos.items;
-						location.photo1 = ko.observable(photos[0].prefix + 'height300' + photos[0].suffix);
-						location.photo2 = ko.observable(photos[1].prefix + 'height300' + photos[1].suffix);
-						location.photo3 = ko.observable(photos[2].prefix + 'height300' + photos[2].suffix);
-						location.photo4 = ko.observable(photos[3].prefix + 'height300' + photos[3].suffix);
-						location.photo5 = ko.observable(photos[4].prefix + 'height300' + photos[4].suffix);
-						location.photo6 = ko.observable(photos[5].prefix + 'height300' + photos[5].suffix);
-						location.photo7 = ko.observable(photos[6].prefix + 'height300' + photos[6].suffix);
-						location.photo8 = ko.observable(photos[7].prefix + 'height300' + photos[7].suffix);
+						location.photo1 = ko.observable(photos[0].prefix + 'height200' + photos[0].suffix);
 						location.state(true);
 
 						// set the selected location
