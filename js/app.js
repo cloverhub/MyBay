@@ -1,7 +1,7 @@
 'use strict';
 
 // check for offline
-var run = function(){
+/*var run = function(){
 	if (Offline.state === 'up')
 	Offline.check();
 	Offline.options = {
@@ -13,7 +13,7 @@ var run = function(){
 	requests: true
 	};
 };
-setInterval(run, 5000);
+setInterval(run, 5000);*/
 
 //***************************************************************** Location Object
 // this object stores data for one location using data in the model

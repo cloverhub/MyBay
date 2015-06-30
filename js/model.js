@@ -899,5 +899,60 @@ var locations = [
 		"wiki": "1",
 		"fs": "1",
 		"category": ["outdoor"]
+	},
+	{
+		"name": "Lake Merritt",
+		"lat": 37.804765,
+		"lng": -122.257661,
+		"review": "The trail around Lake Merritt has a perfect circumference for a good run (5.5 km). For a bonus killer workout, hit the Cleveland Cascade stairs at the end of the run for a stair sprint.<br/><br/>For non-running, the lake is great for a walk. I've been out rowing and sailing a few times which is always fun.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["outdoor"]
+	},
+	{
+		"name": "Coyote Hills Regional Park",
+		"lat": 37.551169,
+		"lng": -122.086590,
+		"review": "Coyote Hills has trails with some beautiful sweeping views of the lower bay wetlands. It's a great place for wildlife spotting. It's great for a long walk or loop around during a bike ride.<br/><br/>If you walk the trail, leave plenty of time and take plenty of water. The loop around is deceptively long and, although I had ridden around the trail plenty of times, we were dehydrated the first time I ever did it on foot.<br/><br/>I don't mind paying the parking fee because I know the funds go to good use.",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["outdoor"]
+	},
+	{
+		"name": "Presidio",
+		"lat": 7.796424,
+		"lng": -122.461509,
+		"review": "The Presidio is a big chunk of San Francisco and is oozing with history throughout. Every time I think I've explored every square foot of the Presidio, I end up finding even more. The Presidio's got forts, military batteries, and even a semi-hidden old Nike missile silo to explore. A day exploring the Presidio is one of my favorite staycation getaways right in the city.",
+		"wiki": "1",
+		"fs": "0",
+		"category": ["outdoor", "explore"]
+	},
+	{
+		"name": "Yoda Statue",
+		"lat": 37.798855,
+		"lng": -122.450233,
+		"review": "Come here on occasion, I must, to spend a moment of quiet reflection and unlearn what I have learned. Judge him by his size, I do not, for the great Jedi Master reminds me to 'Do, or do not. There is no try.'",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["fun"]
+	},
+	{
+		"name": "Eagles Point",
+		"lat": 37.786585,
+		"lng": -122.494636,
+		"review": "My favorite place to just stop and stare out at the coastline and ocean. Come here super early for a better experience and to do the labyrinth without dozens of people milling around.",
+		"wiki": "0",
+		"fs": "1",
+		"category": ["outdoor"]
 	}
+	/* template for more
+	{
+		"name": "xxxx",
+		"lat": xxxx,
+		"lng": xxxx,
+		"review": "xxx",
+		"wiki": "1",
+		"fs": "1",
+		"category": ["xxx"]
+	},*/
 ];
