@@ -240,7 +240,7 @@ nav {
 	background-size: cover;
 	display: inline;
 	z-index: 99;
-	position: fixed;
+	position: absolute;
 	top: 500;
 	right: 0;
 }
